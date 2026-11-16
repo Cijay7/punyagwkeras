@@ -1,0 +1,549 @@
+{
+  "device_id": "LPA-C2413122025-M0015",
+  "checked_at": "2026-11-15T19:27:09.657491+07:00",
+  "timezone": "Asia/Jakarta",
+  "latest": {
+    "id": 143989,
+    "date_time": "2026-05-08T10:00:00+07:00",
+    "age_minutes": 275607.16,
+    "data_lama": true,
+    "suspect_zero_packet": false,
+    "sensors": {
+      "SM": 58.0,
+      "ST": 29.0,
+      "ph": 7.4,
+      "SEC": 0.0,
+      "WL": 94.0,
+      "RR": 0.0
+    },
+    "classification": {
+      "status": "Data lama",
+      "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+      "basis": "aturan_ambang",
+      "aturan_aktif": false
+    },
+    "time_is_synthetic": true
+  },
+  "database": "tugasakhir_sintetis_10menit",
+  "time_is_synthetic": true,
+  "prediction": {
+    "availability": "demo_ready",
+    "message": "Demo sintetis dari input terakhir; bukan kondisi saat ini atau backtest. Periksa penanda model_training_after_input.",
+    "mode": "demo",
+    "is_demo": true,
+    "is_backtest": false,
+    "is_operational": false,
+    "time_is_synthetic": true,
+    "horizon_hours": 24,
+    "forecast_origin": "2026-05-08T10:00:00+07:00",
+    "input_data_lama": true,
+    "input_age_minutes": 275607.16,
+    "model_trained_until": "2026-05-13T06:00:00+07:00",
+    "model_training_after_input": true,
+    "method_per_sensor": {
+      "SM": "Keras GRU",
+      "ST": "Keras GRU",
+      "ph": "Keras GRU",
+      "SEC": "Keras GRU",
+      "WL": "Keras GRU",
+      "RR": "Keras GRU"
+    },
+    "model_per_parameter": {
+      "SM": {
+        "source_device_id": "LPA-C2413122025-M0015",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-08T10:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 3.9901570692870134,
+        "test_macro_mae": 1.1840637835194163,
+        "test_baseline_macro_mae": 1.376402505446623
+      },
+      "ST": {
+        "source_device_id": "LPA-C2313122025-M0011",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-04-24T00:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 0.2012680701832647,
+        "test_macro_mae": 0.22857236034554654,
+        "test_baseline_macro_mae": 0.22853951247288765
+      },
+      "ph": {
+        "source_device_id": "LPA-C2613122025-M0014",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-13T06:00:00+07:00",
+        "training_after_input": true,
+        "validation_macro_mae": 0.032717459592698214,
+        "test_macro_mae": 0.020728525764781097,
+        "test_baseline_macro_mae": 0.020726465910950495
+      },
+      "SEC": {
+        "source_device_id": "LPA-C3113122025-M0019",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-11T00:00:00+07:00",
+        "training_after_input": true,
+        "validation_macro_mae": 0.3913925301112311,
+        "test_macro_mae": 0.08169006446280434,
+        "test_baseline_macro_mae": 0.07984225857701467
+      },
+      "WL": {
+        "source_device_id": "LPA-C3113122025-M0019",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-11T00:00:00+07:00",
+        "training_after_input": true,
+        "validation_macro_mae": 0.9717374679545367,
+        "test_macro_mae": 0.6214921837755234,
+        "test_baseline_macro_mae": 0.6086094277668426
+      },
+      "RR": {
+        "source_device_id": "LPA-C2413122025-M0015",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-08T10:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 0.20731284466113872,
+        "test_macro_mae": 0.10165433501798639,
+        "test_baseline_macro_mae": 0.12711698319725476
+      }
+    },
+    "evaluation_warning": "Eksperimen waktu sintetis; pemenang validation tidak selalu mengalahkan baseline. Bukan akurasi kebakaran.",
+    "points": [
+      {
+        "date_time": "2026-05-08T11:00:00+07:00",
+        "horizon_jam": 1,
+        "sensors": {
+          "SM": 58.275154338528715,
+          "ST": 29.000022009768145,
+          "ph": 7.400000383705042,
+          "SEC": 0.0002847135765478015,
+          "WL": 94.83261542972953,
+          "RR": 0.0
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T12:00:00+07:00",
+        "horizon_jam": 2,
+        "sensors": {
+          "SM": 58.133078848322235,
+          "ST": 28.99993022470153,
+          "ph": 7.400005625844551,
+          "SEC": 4.557675856631249e-05,
+          "WL": 94.83762124863763,
+          "RR": 0.001083225361071527
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T13:00:00+07:00",
+        "horizon_jam": 3,
+        "sensors": {
+          "SM": 58.00531422098478,
+          "ST": 28.99993438353704,
+          "ph": 7.400001233590069,
+          "SEC": 0.00015290157170966268,
+          "WL": 94.84246950534482,
+          "RR": 0.0015056469710543752
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T14:00:00+07:00",
+        "horizon_jam": 4,
+        "sensors": {
+          "SM": 57.91588770349821,
+          "ST": 28.9999816633499,
+          "ph": 7.4000033068195075,
+          "SEC": 0.00026462168898433447,
+          "WL": 94.84782249697794,
+          "RR": 0.0005356132751330733
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T15:00:00+07:00",
+        "horizon_jam": 5,
+        "sensors": {
+          "SM": 57.81889315446218,
+          "ST": 29.000004928939234,
+          "ph": 7.399998193939518,
+          "SEC": 0.0,
+          "WL": 94.85387570721407,
+          "RR": 5.68590075999964e-05
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T16:00:00+07:00",
+        "horizon_jam": 6,
+        "sensors": {
+          "SM": 57.754712661107384,
+          "ST": 29.00008959745901,
+          "ph": 7.399994911385783,
+          "SEC": 0.00020908907754346728,
+          "WL": 94.85407140230139,
+          "RR": 0.0004641014675144106
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T17:00:00+07:00",
+        "horizon_jam": 7,
+        "sensors": {
+          "SM": 57.664758702119194,
+          "ST": 28.999949350931274,
+          "ph": 7.400002099045786,
+          "SEC": 0.00012856016110163182,
+          "WL": 94.85333428469797,
+          "RR": 2.0063354895683005e-05
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T18:00:00+07:00",
+        "horizon_jam": 8,
+        "sensors": {
+          "SM": 57.600541492303215,
+          "ST": 29.00004934943354,
+          "ph": 7.400003520809968,
+          "SEC": 0.0005228487425483763,
+          "WL": 94.85166358885665,
+          "RR": 0.001309425919316709
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T19:00:00+07:00",
+        "horizon_jam": 9,
+        "sensors": {
+          "SM": 57.549413998921715,
+          "ST": 29.00006367731112,
+          "ph": 7.399998713160607,
+          "SEC": 0.0001322810276178643,
+          "WL": 94.85072257493933,
+          "RR": 0.0
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T20:00:00+07:00",
+        "horizon_jam": 10,
+        "sensors": {
+          "SM": 57.478877087434135,
+          "ST": 29.000022887286832,
+          "ph": 7.3999991278860415,
+          "SEC": 0.0,
+          "WL": 94.85100531143446,
+          "RR": 2.0326502635725774e-05
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T21:00:00+07:00",
+        "horizon_jam": 11,
+        "sensors": {
+          "SM": 57.418607791264854,
+          "ST": 28.99994389578569,
+          "ph": 7.400000823750667,
+          "SEC": 0.0,
+          "WL": 94.85040293758114,
+          "RR": 8.08053882792592e-05
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T22:00:00+07:00",
+        "horizon_jam": 12,
+        "sensors": {
+          "SM": 57.33935167392095,
+          "ST": 29.000004920104857,
+          "ph": 7.400004815682132,
+          "SEC": 0.0,
+          "WL": 94.8501531065752,
+          "RR": 0.0014605300966650248
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-08T23:00:00+07:00",
+        "horizon_jam": 13,
+        "sensors": {
+          "SM": 57.31910034020742,
+          "ST": 28.999974469848894,
+          "ph": 7.39999867031795,
+          "SEC": 0.0,
+          "WL": 94.8526744817694,
+          "RR": 0.0013046636013314128
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T00:00:00+07:00",
+        "horizon_jam": 14,
+        "sensors": {
+          "SM": 57.28791161378225,
+          "ST": 29.00005227937072,
+          "ph": 7.399999661712195,
+          "SEC": 0.0,
+          "WL": 94.85293785234292,
+          "RR": 0.0009145193034783006
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T01:00:00+07:00",
+        "horizon_jam": 15,
+        "sensors": {
+          "SM": 57.253435810407005,
+          "ST": 29.00000652106428,
+          "ph": 7.40000079395005,
+          "SEC": 0.0001592394255567342,
+          "WL": 94.85344687228401,
+          "RR": 0.0005983770242892206
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T02:00:00+07:00",
+        "horizon_jam": 16,
+        "sensors": {
+          "SM": 57.23567899068197,
+          "ST": 29.000033652271668,
+          "ph": 7.400001738977857,
+          "SEC": 0.00025071026175282896,
+          "WL": 94.8568028093626,
+          "RR": 0.0008135992102324963
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T03:00:00+07:00",
+        "horizon_jam": 17,
+        "sensors": {
+          "SM": 57.19726391633352,
+          "ST": 29.000020880806915,
+          "ph": 7.40000241154612,
+          "SEC": 0.00014640721201431006,
+          "WL": 94.85780783866842,
+          "RR": 0.00013544369721785188
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T04:00:00+07:00",
+        "horizon_jam": 18,
+        "sensors": {
+          "SM": 57.16769882043203,
+          "ST": 28.9999477369347,
+          "ph": 7.400006882674824,
+          "SEC": 0.00025416992139071226,
+          "WL": 94.85524342147012,
+          "RR": 0.00036882300628349185
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T05:00:00+07:00",
+        "horizon_jam": 19,
+        "sensors": {
+          "SM": 57.132432659467064,
+          "ST": 28.999942689188174,
+          "ph": 7.400001708562194,
+          "SEC": 0.0005285024526529014,
+          "WL": 94.85356142682333,
+          "RR": 0.00020246916392352432
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T06:00:00+07:00",
+        "horizon_jam": 20,
+        "sensors": {
+          "SM": 57.10911520322164,
+          "ST": 28.999990645731486,
+          "ph": 7.399995628690157,
+          "SEC": 0.00013928438420407474,
+          "WL": 94.85331830320258,
+          "RR": 0.00034246977884322405
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T07:00:00+07:00",
+        "horizon_jam": 21,
+        "sensors": {
+          "SM": 57.09316130479177,
+          "ST": 28.999994546789367,
+          "ph": 7.4000008396758625,
+          "SEC": 0.0002530460769776255,
+          "WL": 94.85452588958044,
+          "RR": 0.0
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T08:00:00+07:00",
+        "horizon_jam": 22,
+        "sensors": {
+          "SM": 57.06743105252584,
+          "ST": 28.999902563948126,
+          "ph": 7.400002824188413,
+          "SEC": 0.00031103711808100343,
+          "WL": 94.8495033190896,
+          "RR": 0.0004908526316285133
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T09:00:00+07:00",
+        "horizon_jam": 23,
+        "sensors": {
+          "SM": 57.05426891644796,
+          "ST": 28.999993034391082,
+          "ph": 7.400002279401769,
+          "SEC": 0.0004183229466434568,
+          "WL": 94.84552108341207,
+          "RR": 0.0004355275596026331
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      },
+      {
+        "date_time": "2026-05-09T10:00:00+07:00",
+        "horizon_jam": 24,
+        "sensors": {
+          "SM": 57.01513942082723,
+          "ST": 28.999876753165154,
+          "ph": 7.3999987930401625,
+          "SEC": 0.0004211032355669886,
+          "WL": 94.84404977348943,
+          "RR": 0.0004129867593292147
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Perbarui data sensor sebelum menentukan peringatan saat ini",
+          "basis": "aturan_ambang",
+          "aturan_aktif": false
+        }
+      }
+    ]
+  }
+}

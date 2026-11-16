@@ -1,0 +1,4338 @@
+[
+  {
+    "fold": "earlier",
+    "strategy": "legacy",
+    "sensor": "SM",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SM",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SM",
+          "test_origins": 59,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 5.071631179962362,
+          "mae_baseline": 5.071631179962362
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 117,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "legacy",
+    "sensor": "ST",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ST",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Ridge",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 98,
+          "mae": 0.30655648020059395,
+          "mae_baseline": 0.41618051044704385
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ST",
+          "test_origins": 59,
+          "nonconstant_input_origins": 0,
+          "mae": 0.10035384315176908,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.5442340751283377,
+          "mae_baseline": 0.7302990828210126
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.09591665973611745,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 9,
+          "mae": 0.17643810384018066,
+          "mae_baseline": 0.11231725146198833
+        }
+      ],
+      "test_nonconstant_input_origins": 224,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "legacy",
+    "sensor": "ph",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ph",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.020441223547949125,
+          "mae_baseline": 0.020441223547949125
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ph",
+          "test_origins": 59,
+          "nonconstant_input_origins": 51,
+          "mae": 0.03267450936663713,
+          "mae_baseline": 0.03267450936663713
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.1048283131541218,
+          "mae_baseline": 0.1048283131541218
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.06750552931473999,
+          "mae_baseline": 0.06750552931473999
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 95,
+          "mae": 0.04022492127755282,
+          "mae_baseline": 0.04022492127755282
+        }
+      ],
+      "test_nonconstant_input_origins": 497,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "legacy",
+    "sensor": "SEC",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SEC",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 99,
+          "mae": 0.3141445561455451,
+          "mae_baseline": 0.3141445561455451
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SEC",
+          "test_origins": 59,
+          "nonconstant_input_origins": 36,
+          "mae": 0.3640536723163842,
+          "mae_baseline": 0.3640536723163842
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 106,
+          "mae": 0.7565886314789824,
+          "mae_baseline": 0.7565886314789824
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 107,
+          "mae": 0.5459547491711234,
+          "mae_baseline": 0.5459547491711234
+        }
+      ],
+      "test_nonconstant_input_origins": 348,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "legacy",
+    "sensor": "WL",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "WL",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.7595208864397464,
+          "mae_baseline": 0.7595208864397464
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "WL",
+          "test_origins": 59,
+          "nonconstant_input_origins": 59,
+          "mae": 1.7106787094855782,
+          "mae_baseline": 1.7106787094855782
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 3.0959165946330547,
+          "mae_baseline": 3.0959165946330547
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 106,
+          "mae": 1.046956065377118,
+          "mae_baseline": 1.046956065377118
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 115,
+          "mae": 2.4523310591293046,
+          "mae_baseline": 2.4523310591293046
+        }
+      ],
+      "test_nonconstant_input_origins": 514,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "legacy",
+    "sensor": "RR",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "RR",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Ridge",
+      "evaluation_warning": "MAE test melebihi baseline: RR",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 49,
+          "mae": 0.15161265600704427,
+          "mae_baseline": 0.01669032435286305
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "RR",
+          "test_origins": 59,
+          "nonconstant_input_origins": 17,
+          "mae": 0.15314830783405442,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 102,
+          "mae": 0.44900168766885523,
+          "mae_baseline": 0.7323842537464827
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 58,
+          "mae": 0.15904210957388185,
+          "mae_baseline": 0.06363678962363173
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.1532633686847823,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 226,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "improved",
+    "sensor": "SM",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SM",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Ridge delta 100",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.28173256745925734,
+            "Musiman 24 jam": 0.6007034481795211,
+            "Rata-rata 6 jam": 0.32895627393356464,
+            "Ridge delta 10": 0.2530305814441931,
+            "Ridge delta 100": 0.24624920970545686,
+            "Ridge delta 1000": 0.26256030516987855,
+            "ExtraTrees delta 5": 0.25831288450853807,
+            "ExtraTrees delta 20": 0.25568823828103393
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.41991882201273073,
+            "Musiman 24 jam": 0.5516692441514854,
+            "Rata-rata 6 jam": 0.3948839008594996,
+            "Ridge delta 10": 0.3568163029441568,
+            "Ridge delta 100": 0.3427309674971529,
+            "Ridge delta 1000": 0.3630801112240623,
+            "ExtraTrees delta 5": 0.3216538992747648,
+            "ExtraTrees delta 20": 0.33266862448604456
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "ExtraTrees delta 20",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.5258922548150676,
+            "Musiman 24 jam": 0.5759600720390273,
+            "Rata-rata 6 jam": 0.5084571299700651,
+            "Ridge delta 10": 0.4428693382856029,
+            "Ridge delta 100": 0.4258403103929604,
+            "Ridge delta 1000": 0.4563922273587513,
+            "ExtraTrees delta 5": 0.385538140084306,
+            "ExtraTrees delta 20": 0.38032960962330903
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SM",
+          "test_origins": 59,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 4.810389111064642,
+          "mae_baseline": 5.071631179962362
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 117,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "improved",
+    "sensor": "ST",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ST",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.19055497640621244,
+            "Musiman 24 jam": 0.28336944701590083,
+            "Rata-rata 6 jam": 0.3003156755424387,
+            "Ridge delta 10": 0.17753283035425246,
+            "Ridge delta 100": 0.17570809872263837,
+            "Ridge delta 1000": 0.1729073216011482,
+            "ExtraTrees delta 5": 0.15059059302545932,
+            "ExtraTrees delta 20": 0.1685040933207117
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.40031358982872395,
+            "Musiman 24 jam": 0.23568507775360564,
+            "Rata-rata 6 jam": 0.413064658136832,
+            "Ridge delta 10": 0.24930971691276482,
+            "Ridge delta 100": 0.24896717936406682,
+            "Ridge delta 1000": 0.25491395505530673,
+            "ExtraTrees delta 5": 0.258790068744153,
+            "ExtraTrees delta 20": 0.272760881387418
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.34552075327414783,
+            "Musiman 24 jam": 0.20786836382369614,
+            "Rata-rata 6 jam": 0.289246276973302,
+            "Ridge delta 10": 0.24920933257042116,
+            "Ridge delta 100": 0.24843641414325118,
+            "Ridge delta 1000": 0.25146546367972916,
+            "ExtraTrees delta 5": 0.26312243657567086,
+            "ExtraTrees delta 20": 0.2734186992008149
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 98,
+          "mae": 0.25079738736768964,
+          "mae_baseline": 0.41618051044704385
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ST",
+          "test_origins": 59,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.5656460195877435,
+          "mae_baseline": 0.7302990828210126
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 9,
+          "mae": 0.11366639378856948,
+          "mae_baseline": 0.11231725146198833
+        }
+      ],
+      "test_nonconstant_input_origins": 224,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "improved",
+    "sensor": "ph",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ph",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.020502190872490052,
+            "Musiman 24 jam": 0.05907286894477217,
+            "Rata-rata 6 jam": 0.026689871201842696,
+            "Ridge delta 10": 0.027649661200461875,
+            "Ridge delta 100": 0.02646961642849351,
+            "Ridge delta 1000": 0.023619194310341686,
+            "ExtraTrees delta 5": 0.023381973088011456,
+            "ExtraTrees delta 20": 0.024283333907217427
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.03619054042491529,
+            "Musiman 24 jam": 0.05638621782279174,
+            "Rata-rata 6 jam": 0.04031238680152613,
+            "Ridge delta 10": 0.04610039801761013,
+            "Ridge delta 100": 0.044757740191586945,
+            "Ridge delta 1000": 0.04042529592282297,
+            "ExtraTrees delta 5": 0.037711819370000996,
+            "ExtraTrees delta 20": 0.041484306671025005
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.05122219319199766,
+            "Musiman 24 jam": 0.05719684587700972,
+            "Rata-rata 6 jam": 0.05248308922722085,
+            "Ridge delta 10": 0.06368224588882838,
+            "Ridge delta 100": 0.061657584741479296,
+            "Ridge delta 1000": 0.05564995103076534,
+            "ExtraTrees delta 5": 0.05275507597647766,
+            "ExtraTrees delta 20": 0.0553645450776988
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.020441223547949125,
+          "mae_baseline": 0.020441223547949125
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ph",
+          "test_origins": 59,
+          "nonconstant_input_origins": 51,
+          "mae": 0.03267450936663713,
+          "mae_baseline": 0.03267450936663713
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.1048283131541218,
+          "mae_baseline": 0.1048283131541218
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.06750552931473999,
+          "mae_baseline": 0.06750552931473999
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 95,
+          "mae": 0.04022492127755282,
+          "mae_baseline": 0.04022492127755282
+        }
+      ],
+      "test_nonconstant_input_origins": 497,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "improved",
+    "sensor": "SEC",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SEC",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "MAE test melebihi baseline: SEC",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.14925724600450754,
+            "Musiman 24 jam": 0.3379529056439681,
+            "Rata-rata 6 jam": 0.2125658190057487,
+            "Ridge delta 10": 0.1614795616176423,
+            "Ridge delta 100": 0.1607942724234533,
+            "Ridge delta 1000": 0.16104017146055896,
+            "ExtraTrees delta 5": 0.1456453425870383,
+            "ExtraTrees delta 20": 0.14743291410784096
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.2616418058080239,
+            "Musiman 24 jam": 0.3000775492331789,
+            "Rata-rata 6 jam": 0.2663654828435458,
+            "Ridge delta 10": 0.2518196576437459,
+            "Ridge delta 100": 0.25331611122486064,
+            "Ridge delta 1000": 0.2649087358697572,
+            "ExtraTrees delta 5": 0.2486517186052489,
+            "ExtraTrees delta 20": 0.25442643894842165
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.2749245782991127,
+            "Musiman 24 jam": 0.2857656970770076,
+            "Rata-rata 6 jam": 0.27032522800731307,
+            "Ridge delta 10": 0.290256801873076,
+            "Ridge delta 100": 0.29490637924115487,
+            "Ridge delta 1000": 0.3227887496216086,
+            "ExtraTrees delta 5": 0.2858652119085528,
+            "ExtraTrees delta 20": 0.2950504334453841
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 99,
+          "mae": 0.33581282681365293,
+          "mae_baseline": 0.3141445561455451
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SEC",
+          "test_origins": 59,
+          "nonconstant_input_origins": 36,
+          "mae": 0.3941273494062522,
+          "mae_baseline": 0.3640536723163842
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 106,
+          "mae": 0.7394843738426861,
+          "mae_baseline": 0.7565886314789824
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 107,
+          "mae": 0.5377132144417198,
+          "mae_baseline": 0.5459547491711234
+        }
+      ],
+      "test_nonconstant_input_origins": 348,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "improved",
+    "sensor": "WL",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "WL",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 1.0062680777090816,
+            "Musiman 24 jam": 3.733652658968052,
+            "Rata-rata 6 jam": 1.5089738813869598,
+            "Ridge delta 10": 1.1110420693862952,
+            "Ridge delta 100": 1.0896451091784847,
+            "Ridge delta 1000": 1.0621364243226838,
+            "ExtraTrees delta 5": 1.0056989209737175,
+            "ExtraTrees delta 20": 1.0174855284908486
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 1.9267525258925875,
+            "Musiman 24 jam": 3.0822499113030655,
+            "Rata-rata 6 jam": 2.172207640602139,
+            "Ridge delta 10": 1.9771523742412018,
+            "Ridge delta 100": 1.9675280578499788,
+            "Ridge delta 1000": 1.939625903221067,
+            "ExtraTrees delta 5": 1.736120097817993,
+            "ExtraTrees delta 20": 1.8050790444189193
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 2.445370788166065,
+            "Musiman 24 jam": 2.788844295284945,
+            "Rata-rata 6 jam": 2.459977902273618,
+            "Ridge delta 10": 2.4335301288281324,
+            "Ridge delta 100": 2.4305746952512464,
+            "Ridge delta 1000": 2.4281181373754297,
+            "ExtraTrees delta 5": 2.0109204370484677,
+            "ExtraTrees delta 20": 2.2339790158690587
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.5921080934514271,
+          "mae_baseline": 0.7595208864397464
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "WL",
+          "test_origins": 59,
+          "nonconstant_input_origins": 59,
+          "mae": 1.4610079566930863,
+          "mae_baseline": 1.7106787094855782
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 2.9835796495986084,
+          "mae_baseline": 3.0959165946330547
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 106,
+          "mae": 1.0748686706112505,
+          "mae_baseline": 1.046956065377118
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 115,
+          "mae": 2.593258863863989,
+          "mae_baseline": 2.4523310591293046
+        }
+      ],
+      "test_nonconstant_input_origins": 514,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "improved",
+    "sensor": "RR",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "RR",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Ridge delta 10",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.30525454165307375,
+            "Musiman 24 jam": 0.39897779105545367,
+            "Rata-rata 6 jam": 0.3329804322518173,
+            "Ridge delta 10": 0.2037991215800334,
+            "Ridge delta 100": 0.20702629777137987,
+            "Ridge delta 1000": 0.2450923890302197,
+            "ExtraTrees delta 5": 0.21631262265357903,
+            "ExtraTrees delta 20": 0.2382630661891748
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.3062973882497778,
+            "Musiman 24 jam": 0.3115596797711255,
+            "Rata-rata 6 jam": 0.3239852203511819,
+            "Ridge delta 10": 0.20951658223726907,
+            "Ridge delta 100": 0.21225267940886924,
+            "Ridge delta 1000": 0.24679216854084296,
+            "ExtraTrees delta 5": 0.20540659614920995,
+            "ExtraTrees delta 20": 0.23746836700109428
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Ridge delta 10",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.3217028584795475,
+            "Musiman 24 jam": 0.33857606093465975,
+            "Rata-rata 6 jam": 0.3255607664125132,
+            "Ridge delta 10": 0.2260625950455195,
+            "Ridge delta 100": 0.2288548721553729,
+            "Ridge delta 1000": 0.2647202543877226,
+            "ExtraTrees delta 5": 0.2299805365325847,
+            "ExtraTrees delta 20": 0.24925981430923436
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 49,
+          "mae": 0.06476571692454548,
+          "mae_baseline": 0.01669032435286305
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "RR",
+          "test_origins": 59,
+          "nonconstant_input_origins": 17,
+          "mae": 0.04247271199173272,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 102,
+          "mae": 0.43900810464679324,
+          "mae_baseline": 0.7323842537464827
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 58,
+          "mae": 0.08552972643497005,
+          "mae_baseline": 0.06363678962363173
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 226,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "conservative",
+    "sensor": "SM",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SM",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Ridge delta 100",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.28173256745925734,
+            "Musiman 24 jam": 0.6007034481795211,
+            "Rata-rata 6 jam": 0.32895627393356464,
+            "Ridge delta 10": 0.2530305814441931,
+            "Ridge delta 100": 0.24624920970545686,
+            "Ridge delta 1000": 0.26256030516987855,
+            "ExtraTrees delta 5": 0.25831288450853807,
+            "ExtraTrees delta 20": 0.25568823828103393
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.41991882201273073,
+            "Musiman 24 jam": 0.5516692441514854,
+            "Rata-rata 6 jam": 0.3948839008594996,
+            "Ridge delta 10": 0.3568163029441568,
+            "Ridge delta 100": 0.3427309674971529,
+            "Ridge delta 1000": 0.3630801112240623,
+            "ExtraTrees delta 5": 0.3216538992747648,
+            "ExtraTrees delta 20": 0.33266862448604456
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "ExtraTrees delta 20",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.5258922548150676,
+            "Musiman 24 jam": 0.5759600720390273,
+            "Rata-rata 6 jam": 0.5084571299700651,
+            "Ridge delta 10": 0.4428693382856029,
+            "Ridge delta 100": 0.4258403103929604,
+            "Ridge delta 1000": 0.4563922273587513,
+            "ExtraTrees delta 5": 0.3855381400843059,
+            "ExtraTrees delta 20": 0.38032960962330903
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SM",
+          "test_origins": 59,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 4.810389111064642,
+          "mae_baseline": 5.071631179962362
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SM",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 117,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "conservative",
+    "sensor": "ST",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ST",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.19055497640621244,
+            "Musiman 24 jam": 0.28336944701590083,
+            "Rata-rata 6 jam": 0.3003156755424387,
+            "Ridge delta 10": 0.17753283035425246,
+            "Ridge delta 100": 0.17570809872263837,
+            "Ridge delta 1000": 0.1729073216011482,
+            "ExtraTrees delta 5": 0.15059059302545932,
+            "ExtraTrees delta 20": 0.1685040933207117
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.40031358982872395,
+            "Musiman 24 jam": 0.23568507775360564,
+            "Rata-rata 6 jam": 0.413064658136832,
+            "Ridge delta 10": 0.24930971691276482,
+            "Ridge delta 100": 0.24896717936406682,
+            "Ridge delta 1000": 0.25491395505530673,
+            "ExtraTrees delta 5": 0.258790068744153,
+            "ExtraTrees delta 20": 0.27276088138741805
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.34552075327414783,
+            "Musiman 24 jam": 0.20786836382369614,
+            "Rata-rata 6 jam": 0.289246276973302,
+            "Ridge delta 10": 0.24920933257042116,
+            "Ridge delta 100": 0.24843641414325118,
+            "Ridge delta 1000": 0.25146546367972916,
+            "ExtraTrees delta 5": 0.26312243657567086,
+            "ExtraTrees delta 20": 0.2734186992008149
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 98,
+          "mae": 0.25079738736768964,
+          "mae_baseline": 0.41618051044704385
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ST",
+          "test_origins": 59,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.5656460195877435,
+          "mae_baseline": 0.7302990828210126
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ST",
+          "test_origins": 117,
+          "nonconstant_input_origins": 9,
+          "mae": 0.11366639378856948,
+          "mae_baseline": 0.11231725146198833
+        }
+      ],
+      "test_nonconstant_input_origins": 224,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "conservative",
+    "sensor": "ph",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ph",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.020441223547949125,
+          "mae_baseline": 0.020441223547949125
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ph",
+          "test_origins": 59,
+          "nonconstant_input_origins": 51,
+          "mae": 0.03267450936663713,
+          "mae_baseline": 0.03267450936663713
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.1048283131541218,
+          "mae_baseline": 0.1048283131541218
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.06750552931473999,
+          "mae_baseline": 0.06750552931473999
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ph",
+          "test_origins": 117,
+          "nonconstant_input_origins": 95,
+          "mae": 0.04022492127755282,
+          "mae_baseline": 0.04022492127755282
+        }
+      ],
+      "test_nonconstant_input_origins": 497,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "conservative",
+    "sensor": "SEC",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SEC",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 99,
+          "mae": 0.3141445561455451,
+          "mae_baseline": 0.3141445561455451
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SEC",
+          "test_origins": 59,
+          "nonconstant_input_origins": 36,
+          "mae": 0.3640536723163842,
+          "mae_baseline": 0.3640536723163842
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 106,
+          "mae": 0.7565886314789824,
+          "mae_baseline": 0.7565886314789824
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SEC",
+          "test_origins": 117,
+          "nonconstant_input_origins": 107,
+          "mae": 0.5459547491711234,
+          "mae_baseline": 0.5459547491711234
+        }
+      ],
+      "test_nonconstant_input_origins": 348,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "conservative",
+    "sensor": "WL",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "WL",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 0.7595208864397464,
+          "mae_baseline": 0.7595208864397464
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "WL",
+          "test_origins": 59,
+          "nonconstant_input_origins": 59,
+          "mae": 1.7106787094855782,
+          "mae_baseline": 1.7106787094855782
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 117,
+          "mae": 3.0959165946330547,
+          "mae_baseline": 3.0959165946330547
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 106,
+          "mae": 1.046956065377118,
+          "mae_baseline": 1.046956065377118
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "WL",
+          "test_origins": 117,
+          "nonconstant_input_origins": 115,
+          "mae": 2.4523310591293046,
+          "mae_baseline": 2.4523310591293046
+        }
+      ],
+      "test_nonconstant_input_origins": 514,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "earlier",
+    "strategy": "conservative",
+    "sensor": "RR",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "RR",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-16 19:00:00",
+      "train_windows": 1439,
+      "validation_windows": 394,
+      "test_windows": 527,
+      "validation_start": "2026-05-01 07:00:00",
+      "test_start": "2026-05-06 04:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 49,
+          "mae": 0.01669032435286305,
+          "mae_baseline": 0.01669032435286305
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "RR",
+          "test_origins": 59,
+          "nonconstant_input_origins": 17,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 102,
+          "mae": 0.7323842537464827,
+          "mae_baseline": 0.7323842537464827
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 58,
+          "mae": 0.06363678962363173,
+          "mae_baseline": 0.06363678962363173
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "RR",
+          "test_origins": 117,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 226,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "legacy",
+    "sensor": "SM",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SM",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SM",
+          "test_origins": 64,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SM",
+          "test_origins": 49,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SM",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 4.653969304563286,
+          "mae_baseline": 4.653969304563286
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SM",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SM",
+          "test_origins": 70,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 66,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "legacy",
+    "sensor": "ST",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ST",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Ridge",
+      "evaluation_warning": "MAE test melebihi baseline: ST",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge",
+        "Ridge"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ST",
+          "test_origins": 64,
+          "nonconstant_input_origins": 51,
+          "mae": 0.4859119441794541,
+          "mae_baseline": 0.37118112664473685
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ST",
+          "test_origins": 49,
+          "nonconstant_input_origins": 18,
+          "mae": 0.27515189483158936,
+          "mae_baseline": 0.22687074829931975
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ST",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 0.47857816314886137,
+          "mae_baseline": 0.7683551524012049
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ST",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.08287089601943393,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ST",
+          "test_origins": 70,
+          "nonconstant_input_origins": 28,
+          "mae": 0.16764155890491403,
+          "mae_baseline": 0.11942355889724311
+        }
+      ],
+      "test_nonconstant_input_origins": 163,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "legacy",
+    "sensor": "ph",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ph",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ph",
+          "test_origins": 64,
+          "nonconstant_input_origins": 56,
+          "mae": 0.03100271166580673,
+          "mae_baseline": 0.03100271166580673
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ph",
+          "test_origins": 49,
+          "nonconstant_input_origins": 49,
+          "mae": 0.04563482500512627,
+          "mae_baseline": 0.04563482500512627
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ph",
+          "test_origins": 66,
+          "nonconstant_input_origins": 65,
+          "mae": 0.16305997911061737,
+          "mae_baseline": 0.16305997911061737
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ph",
+          "test_origins": 147,
+          "nonconstant_input_origins": 36,
+          "mae": 0.010068250984604224,
+          "mae_baseline": 0.010068250984604224
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ph",
+          "test_origins": 70,
+          "nonconstant_input_origins": 67,
+          "mae": 0.05100971177944864,
+          "mae_baseline": 0.05100971177944864
+        }
+      ],
+      "test_nonconstant_input_origins": 273,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "legacy",
+    "sensor": "SEC",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SEC",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SEC",
+          "test_origins": 64,
+          "nonconstant_input_origins": 23,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SEC",
+          "test_origins": 49,
+          "nonconstant_input_origins": 21,
+          "mae": 0.16912320483749052,
+          "mae_baseline": 0.16912320483749052
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SEC",
+          "test_origins": 66,
+          "nonconstant_input_origins": 14,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SEC",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SEC",
+          "test_origins": 70,
+          "nonconstant_input_origins": 49,
+          "mae": 0.3165202067669173,
+          "mae_baseline": 0.3165202067669173
+        }
+      ],
+      "test_nonconstant_input_origins": 107,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "legacy",
+    "sensor": "WL",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "WL",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "WL",
+          "test_origins": 64,
+          "nonconstant_input_origins": 51,
+          "mae": 0.7069741410818712,
+          "mae_baseline": 0.7069741410818712
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "WL",
+          "test_origins": 49,
+          "nonconstant_input_origins": 49,
+          "mae": 3.7345790070414124,
+          "mae_baseline": 3.7345790070414124
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "WL",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 3.3157743369366175,
+          "mae_baseline": 3.3157743369366175
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "WL",
+          "test_origins": 147,
+          "nonconstant_input_origins": 147,
+          "mae": 1.5196988005728604,
+          "mae_baseline": 1.5196988005728604
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "WL",
+          "test_origins": 70,
+          "nonconstant_input_origins": 70,
+          "mae": 2.1322541931752457,
+          "mae_baseline": 2.1322541931752457
+        }
+      ],
+      "test_nonconstant_input_origins": 383,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "legacy",
+    "sensor": "RR",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "RR",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "legacy",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "RR",
+          "test_origins": 64,
+          "nonconstant_input_origins": 50,
+          "mae": 0.3324428149366472,
+          "mae_baseline": 0.3324428149366472
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "RR",
+          "test_origins": 49,
+          "nonconstant_input_origins": 18,
+          "mae": 0.0649122807017544,
+          "mae_baseline": 0.0649122807017544
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "RR",
+          "test_origins": 66,
+          "nonconstant_input_origins": 59,
+          "mae": 0.3592935395405725,
+          "mae_baseline": 0.3592935395405725
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "RR",
+          "test_origins": 147,
+          "nonconstant_input_origins": 69,
+          "mae": 0.4133502335771401,
+          "mae_baseline": 0.4133502335771401
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "RR",
+          "test_origins": 70,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 196,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "improved",
+    "sensor": "SM",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SM",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Ridge delta 100",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.3741220473178282,
+            "Musiman 24 jam": 0.8637212881963774,
+            "Rata-rata 6 jam": 0.4923388860445169,
+            "Ridge delta 10": 0.3269747069925443,
+            "Ridge delta 100": 0.32362431397084396,
+            "Ridge delta 1000": 0.3270567352420094,
+            "ExtraTrees delta 5": 0.3300635240719509,
+            "ExtraTrees delta 20": 0.32725721303723454
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Ridge delta 10",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.8995201495318579,
+            "Musiman 24 jam": 0.9555868351191358,
+            "Rata-rata 6 jam": 0.89671924830725,
+            "Ridge delta 10": 0.7333832874046202,
+            "Ridge delta 100": 0.736755919250223,
+            "Ridge delta 1000": 0.7618410338967185,
+            "ExtraTrees delta 5": 0.7689784032111125,
+            "ExtraTrees delta 20": 0.7679040602955183
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 1.3115486286983224,
+            "Musiman 24 jam": 1.2187478680754302,
+            "Rata-rata 6 jam": 1.2384072342196157,
+            "Ridge delta 10": 1.2651475884904333,
+            "Ridge delta 100": 1.2663937872248532,
+            "Ridge delta 1000": 1.2851214838363219,
+            "ExtraTrees delta 5": 1.328028854088801,
+            "ExtraTrees delta 20": 1.3125935999433174
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SM",
+          "test_origins": 64,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SM",
+          "test_origins": 49,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SM",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 4.5164720232551145,
+          "mae_baseline": 4.653969304563286
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SM",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SM",
+          "test_origins": 70,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 66,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "improved",
+    "sensor": "ST",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ST",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.15384803099919148,
+            "Musiman 24 jam": 0.1580015962693045,
+            "Rata-rata 6 jam": 0.22926890725001597,
+            "Ridge delta 10": 0.13499721019228342,
+            "Ridge delta 100": 0.1350012292082101,
+            "Ridge delta 1000": 0.13689575837473975,
+            "ExtraTrees delta 5": 0.13199658904290626,
+            "ExtraTrees delta 20": 0.1366713088307917
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.32789253971227555,
+            "Musiman 24 jam": 0.18009925643069835,
+            "Rata-rata 6 jam": 0.3314691813018525,
+            "Ridge delta 10": 0.19898152905548838,
+            "Ridge delta 100": 0.198326442371505,
+            "Ridge delta 1000": 0.20244016087299352,
+            "ExtraTrees delta 5": 0.21516711156107607,
+            "ExtraTrees delta 20": 0.20786919682683744
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.29892287907685516,
+            "Musiman 24 jam": 0.2338845858747082,
+            "Rata-rata 6 jam": 0.27658010454650567,
+            "Ridge delta 10": 0.2423386114128916,
+            "Ridge delta 100": 0.2413096257073474,
+            "Ridge delta 1000": 0.24120370312909514,
+            "ExtraTrees delta 5": 0.2813756514271376,
+            "ExtraTrees delta 20": 0.2604590937498943
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ST",
+          "test_origins": 64,
+          "nonconstant_input_origins": 51,
+          "mae": 0.5121340498601775,
+          "mae_baseline": 0.37118112664473685
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ST",
+          "test_origins": 49,
+          "nonconstant_input_origins": 18,
+          "mae": 0.2674735822722745,
+          "mae_baseline": 0.22687074829931975
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ST",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 0.48144816585425626,
+          "mae_baseline": 0.7683551524012049
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ST",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ST",
+          "test_origins": 70,
+          "nonconstant_input_origins": 28,
+          "mae": 0.126551347897337,
+          "mae_baseline": 0.11942355889724311
+        }
+      ],
+      "test_nonconstant_input_origins": 163,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "improved",
+    "sensor": "ph",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ph",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.01820381190059388,
+            "Musiman 24 jam": 0.0797018618133738,
+            "Rata-rata 6 jam": 0.026984587042624516,
+            "Ridge delta 10": 0.025016579109915994,
+            "Ridge delta 100": 0.024618905539623072,
+            "Ridge delta 1000": 0.02285801829353335,
+            "ExtraTrees delta 5": 0.02594541775979102,
+            "ExtraTrees delta 20": 0.024071128288560947
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.04066800382946061,
+            "Musiman 24 jam": 0.08175252978701093,
+            "Rata-rata 6 jam": 0.04781347166571797,
+            "Ridge delta 10": 0.055634677875456354,
+            "Ridge delta 100": 0.054859688032534944,
+            "Ridge delta 1000": 0.051076920981284406,
+            "ExtraTrees delta 5": 0.05678057486931916,
+            "ExtraTrees delta 20": 0.05438272492496344
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.07396866746661444,
+            "Musiman 24 jam": 0.08942004859548051,
+            "Rata-rata 6 jam": 0.08101800266176204,
+            "Ridge delta 10": 0.09162334353373047,
+            "Ridge delta 100": 0.09068569787417038,
+            "Ridge delta 1000": 0.0863864226106449,
+            "ExtraTrees delta 5": 0.09707440682298803,
+            "ExtraTrees delta 20": 0.09377712659237054
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ph",
+          "test_origins": 64,
+          "nonconstant_input_origins": 56,
+          "mae": 0.03100271166580673,
+          "mae_baseline": 0.03100271166580673
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ph",
+          "test_origins": 49,
+          "nonconstant_input_origins": 49,
+          "mae": 0.04563482500512627,
+          "mae_baseline": 0.04563482500512627
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ph",
+          "test_origins": 66,
+          "nonconstant_input_origins": 65,
+          "mae": 0.16305997911061737,
+          "mae_baseline": 0.16305997911061737
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ph",
+          "test_origins": 147,
+          "nonconstant_input_origins": 36,
+          "mae": 0.010068250984604224,
+          "mae_baseline": 0.010068250984604224
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ph",
+          "test_origins": 70,
+          "nonconstant_input_origins": 67,
+          "mae": 0.05100971177944864,
+          "mae_baseline": 0.05100971177944864
+        }
+      ],
+      "test_nonconstant_input_origins": 273,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "improved",
+    "sensor": "SEC",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SEC",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "MAE test melebihi baseline: SEC",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.18589972352408016,
+            "Musiman 24 jam": 0.3797649844745149,
+            "Rata-rata 6 jam": 0.25518447641036307,
+            "Ridge delta 10": 0.20220916274578646,
+            "Ridge delta 100": 0.20045868248148468,
+            "Ridge delta 1000": 0.1989130294744295,
+            "ExtraTrees delta 5": 0.20291386498759217,
+            "ExtraTrees delta 20": 0.1905136394876001
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "ExtraTrees delta 20",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.40760739731324885,
+            "Musiman 24 jam": 0.45002346426932566,
+            "Rata-rata 6 jam": 0.4108787937273744,
+            "Ridge delta 10": 0.3885061094682075,
+            "Ridge delta 100": 0.3881661514360547,
+            "Ridge delta 1000": 0.38946309406668284,
+            "ExtraTrees delta 5": 0.3878180054270859,
+            "ExtraTrees delta 20": 0.3812409338635541
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.5003704067508642,
+            "Musiman 24 jam": 0.5299708800378495,
+            "Rata-rata 6 jam": 0.5088562040118254,
+            "Ridge delta 10": 0.5340357313396082,
+            "Ridge delta 100": 0.5307641497162972,
+            "Ridge delta 1000": 0.5159363212992062,
+            "ExtraTrees delta 5": 0.5076407926230979,
+            "ExtraTrees delta 20": 0.5137645589604556
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SEC",
+          "test_origins": 64,
+          "nonconstant_input_origins": 23,
+          "mae": 0.00801204065273098,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SEC",
+          "test_origins": 49,
+          "nonconstant_input_origins": 21,
+          "mae": 0.18946973458071142,
+          "mae_baseline": 0.16912320483749052
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SEC",
+          "test_origins": 66,
+          "nonconstant_input_origins": 14,
+          "mae": 0.012784915231435282,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SEC",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SEC",
+          "test_origins": 70,
+          "nonconstant_input_origins": 49,
+          "mae": 0.3068430701487026,
+          "mae_baseline": 0.3165202067669173
+        }
+      ],
+      "test_nonconstant_input_origins": 107,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "improved",
+    "sensor": "WL",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "WL",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.6344929216231794,
+            "Musiman 24 jam": 2.838280924506669,
+            "Rata-rata 6 jam": 0.9559002959164742,
+            "Ridge delta 10": 0.8110193372998936,
+            "Ridge delta 100": 0.7970996827409826,
+            "Ridge delta 1000": 0.7552430013362964,
+            "ExtraTrees delta 5": 0.6541002672520787,
+            "ExtraTrees delta 20": 0.6352788289269078
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 1.5760850481789972,
+            "Musiman 24 jam": 2.8412394605546734,
+            "Rata-rata 6 jam": 1.768486863594557,
+            "Ridge delta 10": 1.9219608589448167,
+            "Ridge delta 100": 1.8977581497351437,
+            "Ridge delta 1000": 1.803445767972026,
+            "ExtraTrees delta 5": 1.475665330082184,
+            "ExtraTrees delta 20": 1.487226323667963
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Nilai terakhir",
+          "mae_per_candidate": {
+            "Nilai terakhir": 2.626690187921679,
+            "Musiman 24 jam": 2.9675124066199383,
+            "Rata-rata 6 jam": 2.718795492864312,
+            "Ridge delta 10": 3.123423259572703,
+            "Ridge delta 100": 3.0926512696610478,
+            "Ridge delta 1000": 2.9932074992646376,
+            "ExtraTrees delta 5": 2.6082622196989163,
+            "ExtraTrees delta 20": 2.627444873326464
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "WL",
+          "test_origins": 64,
+          "nonconstant_input_origins": 51,
+          "mae": 0.7158107548181416,
+          "mae_baseline": 0.7069741410818712
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "WL",
+          "test_origins": 49,
+          "nonconstant_input_origins": 49,
+          "mae": 3.688470827040757,
+          "mae_baseline": 3.7345790070414124
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "WL",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 3.2269915884311904,
+          "mae_baseline": 3.3157743369366175
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "WL",
+          "test_origins": 147,
+          "nonconstant_input_origins": 147,
+          "mae": 1.565451339028061,
+          "mae_baseline": 1.5196988005728604
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "WL",
+          "test_origins": 70,
+          "nonconstant_input_origins": 70,
+          "mae": 2.0508388969642946,
+          "mae_baseline": 2.1322541931752457
+        }
+      ],
+      "test_nonconstant_input_origins": 383,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "improved",
+    "sensor": "RR",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "RR",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "MAE test melebihi baseline: RR",
+      "strategy": "improved",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "ExtraTrees delta 20",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.1212470514521598,
+            "Musiman 24 jam": 0.13816141308204175,
+            "Rata-rata 6 jam": 0.12265439615336579,
+            "Ridge delta 10": 0.12134957307716063,
+            "Ridge delta 100": 0.12126199880407508,
+            "Ridge delta 1000": 0.12055591476365839,
+            "ExtraTrees delta 5": 0.12114841395997068,
+            "ExtraTrees delta 20": 0.11420811282721458
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.16241064366298535,
+            "Musiman 24 jam": 0.14489372024700894,
+            "Rata-rata 6 jam": 0.16273825878546747,
+            "Ridge delta 10": 0.14734211029271865,
+            "Ridge delta 100": 0.14740984616318203,
+            "Ridge delta 1000": 0.14808169101081245,
+            "ExtraTrees delta 5": 0.14567432855719187,
+            "ExtraTrees delta 20": 0.14543626100957172
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.17512246489835182,
+            "Musiman 24 jam": 0.14545703058852327,
+            "Rata-rata 6 jam": 0.1664369041280609,
+            "Ridge delta 10": 0.16170346869713392,
+            "Ridge delta 100": 0.1619323448912883,
+            "Ridge delta 1000": 0.16378132723037098,
+            "ExtraTrees delta 5": 0.161439934934634,
+            "ExtraTrees delta 20": 0.15763510331259534
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "ExtraTrees delta 20",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "RR",
+          "test_origins": 64,
+          "nonconstant_input_origins": 50,
+          "mae": 0.37880567783498015,
+          "mae_baseline": 0.3324428149366472
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "RR",
+          "test_origins": 49,
+          "nonconstant_input_origins": 18,
+          "mae": 0.46885092201049167,
+          "mae_baseline": 0.0649122807017544
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "RR",
+          "test_origins": 66,
+          "nonconstant_input_origins": 59,
+          "mae": 0.43015330762725384,
+          "mae_baseline": 0.3592935395405725
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "RR",
+          "test_origins": 147,
+          "nonconstant_input_origins": 69,
+          "mae": 0.3203771944660577,
+          "mae_baseline": 0.4133502335771401
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "RR",
+          "test_origins": 70,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 196,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "conservative",
+    "sensor": "SM",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SM",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "Ridge delta 100",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.3741220473178282,
+            "Musiman 24 jam": 0.8637212881963774,
+            "Rata-rata 6 jam": 0.4923388860445169,
+            "Ridge delta 10": 0.3269747069925443,
+            "Ridge delta 100": 0.32362431397084396,
+            "Ridge delta 1000": 0.3270567352420094,
+            "ExtraTrees delta 5": 0.3300635240719509,
+            "ExtraTrees delta 20": 0.32725721303723454
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Ridge delta 10",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.8995201495318579,
+            "Musiman 24 jam": 0.9555868351191358,
+            "Rata-rata 6 jam": 0.89671924830725,
+            "Ridge delta 10": 0.7333832874046202,
+            "Ridge delta 100": 0.736755919250223,
+            "Ridge delta 1000": 0.7618410338967185,
+            "ExtraTrees delta 5": 0.7689784032111125,
+            "ExtraTrees delta 20": 0.7679040602955183
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 1.3115486286983224,
+            "Musiman 24 jam": 1.2187478680754302,
+            "Rata-rata 6 jam": 1.2384072342196157,
+            "Ridge delta 10": 1.2651475884904333,
+            "Ridge delta 100": 1.2663937872248532,
+            "Ridge delta 1000": 1.2851214838363219,
+            "ExtraTrees delta 5": 1.328028854088801,
+            "ExtraTrees delta 20": 1.3125935999433174
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 100",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Ridge delta 10",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SM",
+          "test_origins": 64,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SM",
+          "test_origins": 49,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SM",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 4.5164720232551145,
+          "mae_baseline": 4.653969304563286
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SM",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SM",
+          "test_origins": 70,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 66,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "conservative",
+    "sensor": "ST",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ST",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Seleksi per horizon",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [
+        {
+          "horizon_start": 1,
+          "horizon_end": 6,
+          "selected": "ExtraTrees delta 5",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.15384803099919148,
+            "Musiman 24 jam": 0.1580015962693045,
+            "Rata-rata 6 jam": 0.22926890725001597,
+            "Ridge delta 10": 0.13499721019228342,
+            "Ridge delta 100": 0.1350012292082101,
+            "Ridge delta 1000": 0.13689575837473975,
+            "ExtraTrees delta 5": 0.13199658904290626,
+            "ExtraTrees delta 20": 0.1366713088307917
+          }
+        },
+        {
+          "horizon_start": 7,
+          "horizon_end": 12,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.32789253971227555,
+            "Musiman 24 jam": 0.18009925643069835,
+            "Rata-rata 6 jam": 0.3314691813018525,
+            "Ridge delta 10": 0.19898152905548838,
+            "Ridge delta 100": 0.198326442371505,
+            "Ridge delta 1000": 0.20244016087299352,
+            "ExtraTrees delta 5": 0.2151671115610761,
+            "ExtraTrees delta 20": 0.20786919682683744
+          }
+        },
+        {
+          "horizon_start": 13,
+          "horizon_end": 24,
+          "selected": "Musiman 24 jam",
+          "mae_per_candidate": {
+            "Nilai terakhir": 0.29892287907685516,
+            "Musiman 24 jam": 0.2338845858747082,
+            "Rata-rata 6 jam": 0.27658010454650567,
+            "Ridge delta 10": 0.2423386114128916,
+            "Ridge delta 100": 0.2413096257073474,
+            "Ridge delta 1000": 0.24120370312909514,
+            "ExtraTrees delta 5": 0.2813756514271376,
+            "ExtraTrees delta 20": 0.2604590937498943
+          }
+        }
+      ],
+      "method_per_horizon": [
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "ExtraTrees delta 5",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam",
+        "Musiman 24 jam"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ST",
+          "test_origins": 64,
+          "nonconstant_input_origins": 51,
+          "mae": 0.5121340498601775,
+          "mae_baseline": 0.37118112664473685
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ST",
+          "test_origins": 49,
+          "nonconstant_input_origins": 18,
+          "mae": 0.2674735822722745,
+          "mae_baseline": 0.22687074829931975
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ST",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 0.48144816585425626,
+          "mae_baseline": 0.7683551524012049
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ST",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ST",
+          "test_origins": 70,
+          "nonconstant_input_origins": 28,
+          "mae": 0.126551347897337,
+          "mae_baseline": 0.11942355889724311
+        }
+      ],
+      "test_nonconstant_input_origins": 163,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "conservative",
+    "sensor": "ph",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "ph",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "ph",
+          "test_origins": 64,
+          "nonconstant_input_origins": 56,
+          "mae": 0.03100271166580673,
+          "mae_baseline": 0.03100271166580673
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "ph",
+          "test_origins": 49,
+          "nonconstant_input_origins": 49,
+          "mae": 0.04563482500512627,
+          "mae_baseline": 0.04563482500512627
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "ph",
+          "test_origins": 66,
+          "nonconstant_input_origins": 65,
+          "mae": 0.16305997911061737,
+          "mae_baseline": 0.16305997911061737
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "ph",
+          "test_origins": 147,
+          "nonconstant_input_origins": 36,
+          "mae": 0.010068250984604224,
+          "mae_baseline": 0.010068250984604224
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "ph",
+          "test_origins": 70,
+          "nonconstant_input_origins": 67,
+          "mae": 0.05100971177944864,
+          "mae_baseline": 0.05100971177944864
+        }
+      ],
+      "test_nonconstant_input_origins": 273,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "conservative",
+    "sensor": "SEC",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "SEC",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "SEC",
+          "test_origins": 64,
+          "nonconstant_input_origins": 23,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "SEC",
+          "test_origins": 49,
+          "nonconstant_input_origins": 21,
+          "mae": 0.16912320483749052,
+          "mae_baseline": 0.16912320483749052
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "SEC",
+          "test_origins": 66,
+          "nonconstant_input_origins": 14,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "SEC",
+          "test_origins": 147,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "SEC",
+          "test_origins": 70,
+          "nonconstant_input_origins": 49,
+          "mae": 0.3165202067669173,
+          "mae_baseline": 0.3165202067669173
+        }
+      ],
+      "test_nonconstant_input_origins": 107,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "conservative",
+    "sensor": "WL",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "WL",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "WL",
+          "test_origins": 64,
+          "nonconstant_input_origins": 51,
+          "mae": 0.7069741410818712,
+          "mae_baseline": 0.7069741410818712
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "WL",
+          "test_origins": 49,
+          "nonconstant_input_origins": 49,
+          "mae": 3.7345790070414124,
+          "mae_baseline": 3.7345790070414124
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "WL",
+          "test_origins": 66,
+          "nonconstant_input_origins": 66,
+          "mae": 3.3157743369366175,
+          "mae_baseline": 3.3157743369366175
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "WL",
+          "test_origins": 147,
+          "nonconstant_input_origins": 147,
+          "mae": 1.5196988005728604,
+          "mae_baseline": 1.5196988005728604
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "WL",
+          "test_origins": 70,
+          "nonconstant_input_origins": 70,
+          "mae": 2.1322541931752457,
+          "mae_baseline": 2.1322541931752457
+        }
+      ],
+      "test_nonconstant_input_origins": 383,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  },
+  {
+    "fold": "latest",
+    "strategy": "conservative",
+    "sensor": "RR",
+    "metadata": {
+      "training_scope": "parameter",
+      "sensor": "RR",
+      "training_devices": [
+        "LPA-C2313122025-M0011",
+        "LPA-C2413122025-M0012",
+        "LPA-C2413122025-M0015",
+        "LPA-C2613122025-M0014",
+        "LPA-C3113122025-M0019",
+        "LPA-C3413122025-P0022",
+        "LPA-C3613122025-P0024"
+      ],
+      "trained_until": "2026-05-25 06:00:00",
+      "train_windows": 1786,
+      "validation_windows": 628,
+      "test_windows": 396,
+      "validation_start": "2026-05-04 23:00:00",
+      "test_start": "2026-05-15 20:00:00",
+      "lag_hours": 24,
+      "horizon_hours": 24,
+      "method": "Nilai terakhir",
+      "evaluation_warning": "Periksa MAE per horizon; belum memvalidasi risiko kebakaran",
+      "strategy": "conservative",
+      "validation_scores": [],
+      "method_per_horizon": [
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir",
+        "Nilai terakhir"
+      ],
+      "test_per_device": [
+        {
+          "device_id": "LPA-C2313122025-M0011",
+          "sensor": "RR",
+          "test_origins": 64,
+          "nonconstant_input_origins": 50,
+          "mae": 0.3324428149366472,
+          "mae_baseline": 0.3324428149366472
+        },
+        {
+          "device_id": "LPA-C2413122025-M0012",
+          "sensor": "RR",
+          "test_origins": 49,
+          "nonconstant_input_origins": 18,
+          "mae": 0.0649122807017544,
+          "mae_baseline": 0.0649122807017544
+        },
+        {
+          "device_id": "LPA-C2413122025-M0015",
+          "sensor": "RR",
+          "test_origins": 66,
+          "nonconstant_input_origins": 59,
+          "mae": 0.3592935395405725,
+          "mae_baseline": 0.3592935395405725
+        },
+        {
+          "device_id": "LPA-C2613122025-M0014",
+          "sensor": "RR",
+          "test_origins": 147,
+          "nonconstant_input_origins": 69,
+          "mae": 0.4133502335771401,
+          "mae_baseline": 0.4133502335771401
+        },
+        {
+          "device_id": "LPA-C3113122025-M0019",
+          "sensor": "RR",
+          "test_origins": 70,
+          "nonconstant_input_origins": 0,
+          "mae": 0.0,
+          "mae_baseline": 0.0
+        }
+      ],
+      "test_nonconstant_input_origins": 196,
+      "release_policy": "SM/ST kandidat; parameter lain persistence. Kebijakan dari benchmark historis; perlu data baru."
+    }
+  }
+]

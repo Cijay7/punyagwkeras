@@ -1,0 +1,40 @@
+{
+  "SM": {
+    "winner": "LPA-C2413122025-M0015",
+    "eligible_candidates": 1,
+    "scores_reproduced": true
+  },
+  "ST": {
+    "winner": "LPA-C2313122025-M0011",
+    "eligible_candidates": 4,
+    "scores_reproduced": true
+  },
+  "ph": {
+    "winner": "LPA-C2613122025-M0014",
+    "eligible_candidates": 4,
+    "scores_reproduced": true
+  },
+  "SEC": {
+    "winner": "LPA-C3113122025-M0019",
+    "eligible_candidates": 3,
+    "scores_reproduced": true
+  },
+  "WL": {
+    "winner": "LPA-C3113122025-M0019",
+    "eligible_candidates": 4,
+    "scores_reproduced": true
+  },
+  "RR": {
+    "winner": "LPA-C2413122025-M0015",
+    "eligible_candidates": 4,
+    "scores_reproduced": true
+  },
+  "verification": {
+    "models": 24,
+    "champions": 6,
+    "old_files_checked": 26,
+    "old_files_changed": [],
+    "forecast_rows": 24,
+    "new_tests_passed": 5
+  }
+}

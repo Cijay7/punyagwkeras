@@ -1,0 +1,829 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "EWS Gambut Keras API Lokal",
+    "description": "Default mode demo untuk database sintetis. Enam champion Keras dipakai untuk device pilihan. Tidak ada training atau penulisan database pada request.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "Status"
+        ],
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/models": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "summary": "Models",
+        "operationId": "models_api_v1_models_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/devices": {
+      "get": {
+        "tags": [
+          "Perangkat"
+        ],
+        "summary": "Devices",
+        "operationId": "devices_api_v1_devices_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/devices/{device_id}/latest": {
+      "get": {
+        "tags": [
+          "Sensor"
+        ],
+        "summary": "Latest",
+        "operationId": "latest_api_v1_devices__device_id__latest_get",
+        "parameters": [
+          {
+            "name": "device_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_-]{1,100}$",
+              "title": "Device Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KerasLatestResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/devices/{device_id}/classification": {
+      "get": {
+        "tags": [
+          "Klasifikasi"
+        ],
+        "summary": "Classification",
+        "operationId": "classification_api_v1_devices__device_id__classification_get",
+        "parameters": [
+          {
+            "name": "device_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_-]{1,100}$",
+              "title": "Device Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/devices/{device_id}/predictions": {
+      "get": {
+        "tags": [
+          "Prediksi"
+        ],
+        "summary": "Predictions",
+        "operationId": "predictions_api_v1_devices__device_id__predictions_get",
+        "parameters": [
+          {
+            "name": "device_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_-]{1,100}$",
+              "title": "Device Id"
+            }
+          },
+          {
+            "name": "mode",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "demo",
+                "live"
+              ],
+              "type": "string",
+              "default": "demo",
+              "title": "Mode"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KerasPredictionResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/devices/{device_id}/results": {
+      "get": {
+        "tags": [
+          "Prediksi"
+        ],
+        "summary": "Results",
+        "operationId": "results_api_v1_devices__device_id__results_get",
+        "parameters": [
+          {
+            "name": "device_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_-]{1,100}$",
+              "title": "Device Id"
+            }
+          },
+          {
+            "name": "mode",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "demo",
+                "live"
+              ],
+              "type": "string",
+              "default": "demo",
+              "title": "Mode"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KerasResultResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Classification": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "alasan": {
+            "type": "string",
+            "title": "Alasan"
+          },
+          "basis": {
+            "type": "string",
+            "title": "Basis",
+            "default": "aturan_ambang"
+          },
+          "aturan_aktif": {
+            "type": "boolean",
+            "title": "Aturan Aktif"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "alasan",
+          "aturan_aktif"
+        ],
+        "title": "Classification"
+      },
+      "ForecastPoint": {
+        "properties": {
+          "date_time": {
+            "type": "string",
+            "title": "Date Time"
+          },
+          "horizon_jam": {
+            "type": "integer",
+            "title": "Horizon Jam"
+          },
+          "sensors": {
+            "$ref": "#/components/schemas/SensorValues"
+          },
+          "classification": {
+            "$ref": "#/components/schemas/Classification"
+          }
+        },
+        "type": "object",
+        "required": [
+          "date_time",
+          "horizon_jam",
+          "sensors",
+          "classification"
+        ],
+        "title": "ForecastPoint"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "KerasLatestReading": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "date_time": {
+            "type": "string",
+            "title": "Date Time"
+          },
+          "age_minutes": {
+            "type": "number",
+            "title": "Age Minutes"
+          },
+          "data_lama": {
+            "type": "boolean",
+            "title": "Data Lama"
+          },
+          "suspect_zero_packet": {
+            "type": "boolean",
+            "title": "Suspect Zero Packet"
+          },
+          "sensors": {
+            "$ref": "#/components/schemas/SensorValues"
+          },
+          "classification": {
+            "$ref": "#/components/schemas/Classification"
+          },
+          "time_is_synthetic": {
+            "type": "boolean",
+            "title": "Time Is Synthetic"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "date_time",
+          "age_minutes",
+          "data_lama",
+          "suspect_zero_packet",
+          "sensors",
+          "classification",
+          "time_is_synthetic"
+        ],
+        "title": "KerasLatestReading"
+      },
+      "KerasLatestResponse": {
+        "properties": {
+          "device_id": {
+            "type": "string",
+            "title": "Device Id"
+          },
+          "checked_at": {
+            "type": "string",
+            "title": "Checked At"
+          },
+          "timezone": {
+            "type": "string",
+            "title": "Timezone"
+          },
+          "latest": {
+            "$ref": "#/components/schemas/KerasLatestReading"
+          },
+          "database": {
+            "type": "string",
+            "title": "Database"
+          },
+          "time_is_synthetic": {
+            "type": "boolean",
+            "title": "Time Is Synthetic"
+          }
+        },
+        "type": "object",
+        "required": [
+          "device_id",
+          "checked_at",
+          "timezone",
+          "latest",
+          "database",
+          "time_is_synthetic"
+        ],
+        "title": "KerasLatestResponse"
+      },
+      "KerasPrediction": {
+        "properties": {
+          "availability": {
+            "type": "string",
+            "enum": [
+              "demo_ready",
+              "ready",
+              "stale_data",
+              "synthetic_data",
+              "invalid_latest_reading",
+              "insufficient_history",
+              "model_not_found",
+              "model_invalid",
+              "model_from_future"
+            ],
+            "title": "Availability"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "demo",
+              "live"
+            ],
+            "title": "Mode"
+          },
+          "is_demo": {
+            "type": "boolean",
+            "title": "Is Demo"
+          },
+          "is_backtest": {
+            "type": "boolean",
+            "title": "Is Backtest",
+            "default": false
+          },
+          "is_operational": {
+            "type": "boolean",
+            "title": "Is Operational",
+            "default": false
+          },
+          "time_is_synthetic": {
+            "type": "boolean",
+            "title": "Time Is Synthetic"
+          },
+          "horizon_hours": {
+            "type": "integer",
+            "title": "Horizon Hours",
+            "default": 24
+          },
+          "forecast_origin": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Forecast Origin"
+          },
+          "input_data_lama": {
+            "type": "boolean",
+            "title": "Input Data Lama"
+          },
+          "input_age_minutes": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Input Age Minutes"
+          },
+          "model_trained_until": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model Trained Until"
+          },
+          "model_training_after_input": {
+            "type": "boolean",
+            "title": "Model Training After Input",
+            "default": false
+          },
+          "method_per_sensor": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Method Per Sensor"
+          },
+          "model_per_parameter": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "$ref": "#/components/schemas/ModelInfo"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model Per Parameter"
+          },
+          "evaluation_warning": {
+            "type": "string",
+            "title": "Evaluation Warning"
+          },
+          "points": {
+            "items": {
+              "$ref": "#/components/schemas/ForecastPoint"
+            },
+            "type": "array",
+            "title": "Points"
+          }
+        },
+        "type": "object",
+        "required": [
+          "availability",
+          "message",
+          "mode",
+          "is_demo",
+          "time_is_synthetic",
+          "input_data_lama",
+          "evaluation_warning"
+        ],
+        "title": "KerasPrediction"
+      },
+      "KerasPredictionResponse": {
+        "properties": {
+          "device_id": {
+            "type": "string",
+            "title": "Device Id"
+          },
+          "checked_at": {
+            "type": "string",
+            "title": "Checked At"
+          },
+          "timezone": {
+            "type": "string",
+            "title": "Timezone"
+          },
+          "database": {
+            "type": "string",
+            "title": "Database"
+          },
+          "time_is_synthetic": {
+            "type": "boolean",
+            "title": "Time Is Synthetic"
+          },
+          "prediction": {
+            "$ref": "#/components/schemas/KerasPrediction"
+          }
+        },
+        "type": "object",
+        "required": [
+          "device_id",
+          "checked_at",
+          "timezone",
+          "database",
+          "time_is_synthetic",
+          "prediction"
+        ],
+        "title": "KerasPredictionResponse"
+      },
+      "KerasResultResponse": {
+        "properties": {
+          "device_id": {
+            "type": "string",
+            "title": "Device Id"
+          },
+          "checked_at": {
+            "type": "string",
+            "title": "Checked At"
+          },
+          "timezone": {
+            "type": "string",
+            "title": "Timezone"
+          },
+          "latest": {
+            "$ref": "#/components/schemas/KerasLatestReading"
+          },
+          "database": {
+            "type": "string",
+            "title": "Database"
+          },
+          "time_is_synthetic": {
+            "type": "boolean",
+            "title": "Time Is Synthetic"
+          },
+          "prediction": {
+            "$ref": "#/components/schemas/KerasPrediction"
+          }
+        },
+        "type": "object",
+        "required": [
+          "device_id",
+          "checked_at",
+          "timezone",
+          "latest",
+          "database",
+          "time_is_synthetic",
+          "prediction"
+        ],
+        "title": "KerasResultResponse"
+      },
+      "ModelInfo": {
+        "properties": {
+          "source_device_id": {
+            "type": "string",
+            "title": "Source Device Id"
+          },
+          "framework": {
+            "type": "string",
+            "title": "Framework",
+            "default": "keras"
+          },
+          "architecture": {
+            "type": "string",
+            "title": "Architecture",
+            "default": "GRU"
+          },
+          "trained_until": {
+            "type": "string",
+            "title": "Trained Until"
+          },
+          "training_after_input": {
+            "type": "boolean",
+            "title": "Training After Input",
+            "default": false
+          },
+          "validation_macro_mae": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Validation Macro Mae"
+          },
+          "test_macro_mae": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Test Macro Mae"
+          },
+          "test_baseline_macro_mae": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Test Baseline Macro Mae"
+          }
+        },
+        "type": "object",
+        "required": [
+          "source_device_id",
+          "trained_until"
+        ],
+        "title": "ModelInfo"
+      },
+      "SensorValues": {
+        "properties": {
+          "SM": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sm"
+          },
+          "ST": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "St"
+          },
+          "ph": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ph"
+          },
+          "SEC": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sec"
+          },
+          "WL": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Wl"
+          },
+          "RR": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rr"
+          }
+        },
+        "type": "object",
+        "required": [
+          "SM",
+          "ST",
+          "ph",
+          "SEC",
+          "WL",
+          "RR"
+        ],
+        "title": "SensorValues"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

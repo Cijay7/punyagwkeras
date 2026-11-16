@@ -1,0 +1,74 @@
+{
+  "validation": {
+    "macro_mae": 0.2914632589373587,
+    "macro_mae_baseline": 0.29139882819312796,
+    "skill_pct": -0.02211084534218255,
+    "devices": [
+      {
+        "device_id": "LPA-C2313122025-M0011",
+        "origins": 136,
+        "mae": 0.3523179347507812,
+        "mae_baseline": 0.3522170447986557
+      },
+      {
+        "device_id": "LPA-C2413122025-M0015",
+        "origins": 136,
+        "mae": 0.71683558267772,
+        "mae_baseline": 0.7167523972308221
+      },
+      {
+        "device_id": "LPA-C2613122025-M0014",
+        "origins": 136,
+        "mae": 3.877466343690522e-05,
+        "mae_baseline": 0.0
+      },
+      {
+        "device_id": "LPA-C3113122025-M0019",
+        "origins": 136,
+        "mae": 0.09666074365749662,
+        "mae_baseline": 0.09662587074303407
+      }
+    ]
+  },
+  "test": {
+    "macro_mae": 0.3148305766628819,
+    "macro_mae_baseline": 0.31473995948579625,
+    "skill_pct": -0.028791125611649093,
+    "devices": [
+      {
+        "device_id": "LPA-C2313122025-M0011",
+        "origins": 64,
+        "mae": 0.37131918314923834,
+        "mae_baseline": 0.37118112664473685
+      },
+      {
+        "device_id": "LPA-C2413122025-M0015",
+        "origins": 66,
+        "mae": 0.7684475341539706,
+        "mae_baseline": 0.7683551524012049
+      },
+      {
+        "device_id": "LPA-C2613122025-M0014",
+        "origins": 147,
+        "mae": 3.470226373367494e-05,
+        "mae_baseline": 0.0
+      },
+      {
+        "device_id": "LPA-C3113122025-M0019",
+        "origins": 70,
+        "mae": 0.11952088708458487,
+        "mae_baseline": 0.11942355889724311
+      }
+    ]
+  },
+  "reference_devices": [
+    "LPA-C2313122025-M0011",
+    "LPA-C2413122025-M0015",
+    "LPA-C2613122025-M0014",
+    "LPA-C3113122025-M0019"
+  ],
+  "split": {
+    "validation_start": "2026-05-04 23:00:00",
+    "test_start": "2026-05-15 20:00:00"
+  }
+}

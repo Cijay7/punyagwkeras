@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-15T19:23:24.961455+07:00",
+  "timezone": "Asia/Jakarta",
+  "time_is_synthetic": true,
+  "devices": [
+    {
+      "device_id": "LPA-C2213122025-M0010",
+      "latest_time": "2026-03-10T02:20:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C2313122025-M0011",
+      "latest_time": "2026-04-24T00:30:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C2413122025-M0012",
+      "latest_time": "2026-03-12T19:40:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C2413122025-M0015",
+      "latest_time": "2026-05-08T10:00:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C2513122025-M0013",
+      "latest_time": "2026-05-07T19:10:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C2613122025-M0014",
+      "latest_time": "2026-05-13T06:30:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C2813122025-M0016",
+      "latest_time": "2026-04-23T02:00:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C3113122025-M0019",
+      "latest_time": "2026-05-11T00:00:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C3413122025-P0022",
+      "latest_time": "2026-01-23T21:20:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-C3613122025-P0024",
+      "latest_time": "2026-02-04T07:00:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-M1906112025-P0007",
+      "latest_time": "2026-03-03T21:40:00+07:00",
+      "data_lama": true
+    },
+    {
+      "device_id": "LPA-M2106112025-P0009",
+      "latest_time": "2026-01-01T07:00:00+07:00",
+      "data_lama": true
+    }
+  ]
+}

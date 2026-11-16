@@ -1,0 +1,78 @@
+{
+  "scale": 1.2869357410624809,
+  "metadata": {
+    "framework": "keras",
+    "backend": "tensorflow",
+    "architecture": "GRU",
+    "sensor": "WL",
+    "device_id": "LPA-C2313122025-M0011",
+    "training_devices": [
+      "LPA-C2313122025-M0011"
+    ],
+    "training_scope": "device_parameter",
+    "lag_hours": 24,
+    "horizon_hours": 24,
+    "best_epoch": 3,
+    "trained_until": "2026-03-21 02:00:00",
+    "fit_fingerprint": "25480c9f489ed15bb047019660d7a678ff7d7492e9848713424efcecc62bd9bd",
+    "time_semantics": "synthetic_not_actual_measurement",
+    "validation_start": "2026-03-21 03:00:00",
+    "test_start": "2026-04-16 05:00:00"
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 6,
+    "hidden_size": 16,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss_scaled": 0.32945263385772705,
+      "validation_mae": 0.22923875742904135
+    },
+    {
+      "epoch": 2,
+      "train_loss_scaled": 0.35230451822280884,
+      "validation_mae": 0.22894917353703306
+    },
+    {
+      "epoch": 3,
+      "train_loss_scaled": 0.23875278234481812,
+      "validation_mae": 0.22890510588363347
+    },
+    {
+      "epoch": 4,
+      "train_loss_scaled": 0.29298558831214905,
+      "validation_mae": 0.22896187493626094
+    },
+    {
+      "epoch": 5,
+      "train_loss_scaled": 0.3771003186702728,
+      "validation_mae": 0.2289961954527897
+    },
+    {
+      "epoch": 6,
+      "train_loss_scaled": 0.27157148718833923,
+      "validation_mae": 0.22901739183054567
+    },
+    {
+      "epoch": 7,
+      "train_loss_scaled": 0.3008098006248474,
+      "validation_mae": 0.2291245044861011
+    },
+    {
+      "epoch": 8,
+      "train_loss_scaled": 0.3963296711444855,
+      "validation_mae": 0.22954981343338568
+    },
+    {
+      "epoch": 9,
+      "train_loss_scaled": 0.25741738080978394,
+      "validation_mae": 0.2304246296293367
+    }
+  ],
+  "model_sha256": "03fe934f9ff8c911a736ed3511c7f8810922e19404427a50c904fad7664ef6b6"
+}

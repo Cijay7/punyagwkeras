@@ -1,0 +1,33 @@
+{
+  "validation": {
+    "macro_mae": 4.342873292727943,
+    "macro_mae_baseline": 4.342873292727943,
+    "devices": [
+      {
+        "device_id": "LPA-C2413122025-M0015",
+        "origins": 602,
+        "mae": 4.342873292727943,
+        "mae_baseline": 4.342873292727943
+      }
+    ]
+  },
+  "test": {
+    "macro_mae": 1.376402505446623,
+    "macro_mae_baseline": 1.376402505446623,
+    "devices": [
+      {
+        "device_id": "LPA-C2413122025-M0015",
+        "origins": 510,
+        "mae": 1.376402505446623,
+        "mae_baseline": 1.376402505446623
+      }
+    ]
+  },
+  "reference_devices": [
+    "LPA-C2413122025-M0015"
+  ],
+  "selection_uses_test": false,
+  "evaluation_trained_until": "2026-04-16 04:00:00",
+  "validation_start": "2026-03-21 03:00:00",
+  "test_start": "2026-04-16 05:00:00"
+}

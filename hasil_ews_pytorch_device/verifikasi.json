@@ -1,0 +1,43 @@
+{
+  "SM": {
+    "winner": "LPA-C2413122025-M0015",
+    "candidates": 1,
+    "scores_reproduced": true,
+    "checkpoints_isolated_by_device": true
+  },
+  "ST": {
+    "winner": "LPA-C2313122025-M0011",
+    "candidates": 4,
+    "scores_reproduced": true,
+    "checkpoints_isolated_by_device": true
+  },
+  "ph": {
+    "winner": "LPA-C2613122025-M0014",
+    "candidates": 4,
+    "scores_reproduced": true,
+    "checkpoints_isolated_by_device": true
+  },
+  "SEC": {
+    "winner": "LPA-C3113122025-M0019",
+    "candidates": 3,
+    "scores_reproduced": true,
+    "checkpoints_isolated_by_device": true
+  },
+  "WL": {
+    "winner": "LPA-C2413122025-M0015",
+    "candidates": 4,
+    "scores_reproduced": true,
+    "checkpoints_isolated_by_device": true
+  },
+  "RR": {
+    "winner": "LPA-C2613122025-M0014",
+    "candidates": 4,
+    "scores_reproduced": true,
+    "checkpoints_isolated_by_device": true
+  },
+  "forecast": {
+    "points": 24,
+    "stale": true
+  },
+  "model_count": 24
+}

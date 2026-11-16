@@ -1,0 +1,99 @@
+{
+  "total_rows": 143995,
+  "devices": 12,
+  "as_of_jakarta": "2026-11-15 17:53:24.613139",
+  "invalid_date_time": 0,
+  "invalid_unixtime": 0,
+  "unixtime_units": {
+    "s": 143995
+  },
+  "date_time_min": "1970-09-13 04:17:09",
+  "date_time_max": "2106-02-07 06:28:15",
+  "unix_utc_min": "1970-09-13 04:17:09+00:00",
+  "unix_utc_max": "2106-02-07 06:28:15+00:00",
+  "date_time_before_2026_rows": 1669,
+  "unixtime_outside_2000_2100": 1260,
+  "date_time_future_rows": 4511,
+  "timezone_checks": {
+    "UTC": {
+      "valid_pairs": 143995,
+      "agree_within_2s": 143995,
+      "different_over_1h": 0,
+      "median_delta_seconds": 0.0,
+      "common_offsets_seconds": {
+        "0.0": 143995
+      }
+    },
+    "Asia/Jakarta": {
+      "valid_pairs": 143995,
+      "agree_within_2s": 0,
+      "different_over_1h": 143995,
+      "median_delta_seconds": -25200.0,
+      "common_offsets_seconds": {
+        "-25200.0": 143995
+      }
+    },
+    "Asia/Makassar": {
+      "valid_pairs": 143995,
+      "agree_within_2s": 0,
+      "different_over_1h": 143995,
+      "median_delta_seconds": -28800.0,
+      "common_offsets_seconds": {
+        "-28800.0": 143995
+      }
+    }
+  },
+  "receipt_delay_assuming_created_jakarta_date_utc": {
+    "median_seconds": 45.0,
+    "within_0_300s": 128455,
+    "outside_plus_minus_1day": 11094
+  },
+  "rows_passing_existing_training_time_filter": 137815,
+  "passing_filter_but_receipt_gap_over_1day": 4914,
+  "common_date_minus_created_seconds": {
+    "-25245.0": 2230,
+    "-25258.0": 2225,
+    "-25244.0": 2164,
+    "-25246.0": 2159,
+    "-25247.0": 2139,
+    "-25257.0": 2042,
+    "-25248.0": 2034,
+    "-25259.0": 2032,
+    "-25249.0": 1956,
+    "-25256.0": 1955
+  },
+  "training_windows_total_by_policy": {
+    "date_time": {
+      "windows_SM": 2948,
+      "windows_ST": 2948,
+      "windows_ph": 2948,
+      "windows_SEC": 2948,
+      "windows_WL": 2948,
+      "windows_RR": 2948
+    },
+    "unixtime_Asia_Jakarta": {
+      "windows_SM": 2948,
+      "windows_ST": 2948,
+      "windows_ph": 2948,
+      "windows_SEC": 2948,
+      "windows_WL": 2948,
+      "windows_RR": 2948
+    },
+    "unixtime_Asia_Makassar": {
+      "windows_SM": 2948,
+      "windows_ST": 2948,
+      "windows_ph": 2948,
+      "windows_SEC": 2948,
+      "windows_WL": 2948,
+      "windows_RR": 2948
+    },
+    "unixtime_UTC": {
+      "windows_SM": 2948,
+      "windows_ST": 2948,
+      "windows_ph": 2948,
+      "windows_SEC": 2948,
+      "windows_WL": 2948,
+      "windows_RR": 2948
+    }
+  }
+}

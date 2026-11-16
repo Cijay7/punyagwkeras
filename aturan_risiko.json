@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "source": "",
+  "units_and_reference_confirmed": false,
+  "rules": [
+    {"sensor": "SM", "direction": "low", "rawan": null, "bahaya": null},
+    {"sensor": "ST", "direction": "high", "rawan": null, "bahaya": null},
+    {"sensor": "WL", "direction": "low", "rawan": null, "bahaya": null}
+  ],
+  "notes": [
+    "Belum ada label risiko di MySQL; jangan mengklaim akurasi klasifikasi.",
+    "Isi aturan dari kalibrasi lapangan/pakar, lalu aktifkan enabled.",
+    "Setiap rule: sensor (SM/ST/ph/SEC/WL/RR), direction (low/high), rawan (angka), bahaya (angka).",
+    "low: Bahaya jika nilai <= bahaya, Rawan jika nilai <= rawan. high: kebalikannya.",
+    "Level akhir adalah level tertinggi dari semua aturan. Normal berarti tidak ada pemicu pada aturan yang dikonfigurasi.",
+    "SM persen; ST derajat (skala perlu dikonfirmasi); WL cm dan makin besar berarti air makin tinggi menurut pengguna. Nol referensi belum pasti.",
+    "Satuan SEC dan definisi RR belum pasti. RR tidak dianggap mm atau dijumlahkan sebagai hujan harian.",
+    "ph dan SEC tidak otomatis menjadi penentu risiko tanpa bukti/aturan tervalidasi."
+  ]
+}

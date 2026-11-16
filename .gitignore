@@ -1,0 +1,25 @@
+# Local Python environments and caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local credentials; keep documented examples
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+
+# Local tooling and platform files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+huggingface_ews_gambut/verification/

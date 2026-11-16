@@ -1,0 +1,17 @@
+{
+  "repo": "Cijay67/Nyawit",
+  "repo_type": "model",
+  "private": true,
+  "commit": "e1ec3db38b17443f820602a238635f1c449b005e",
+  "verified_package_files": 34,
+  "preserved_pytorch_files": [
+    "model_parameter_RR.pt",
+    "model_parameter_SEC.pt",
+    "model_parameter_SM.pt",
+    "model_parameter_ST.pt",
+    "model_parameter_WL.pt",
+    "model_parameter_ph.pt"
+  ],
+  "rest_deployed": false,
+  "space_creation_error": "HTTP 402: Docker/Gradio cpu-basic hosting requires PRO"
+}

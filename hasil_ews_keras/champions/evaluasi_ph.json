@@ -1,0 +1,93 @@
+{
+  "scale": 0.029242716511546692,
+  "metadata": {
+    "framework": "keras",
+    "backend": "tensorflow",
+    "architecture": "GRU",
+    "sensor": "ph",
+    "device_id": "LPA-C2613122025-M0014",
+    "training_devices": [
+      "LPA-C2613122025-M0014"
+    ],
+    "training_scope": "device_parameter",
+    "lag_hours": 24,
+    "horizon_hours": 24,
+    "best_epoch": 15,
+    "trained_until": "2026-04-16 04:00:00",
+    "fit_fingerprint": "1b6d5d981d304be7c5b5f09cd6ee5c9283fe374d557407bf1f93bec7542a2c5e",
+    "time_semantics": "synthetic_not_actual_measurement",
+    "validation_start": "2026-03-21 03:00:00",
+    "test_start": "2026-04-16 05:00:00"
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 6,
+    "hidden_size": 16,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss_scaled": 0.25430700182914734
+    },
+    {
+      "epoch": 2,
+      "train_loss_scaled": 0.4787161350250244
+    },
+    {
+      "epoch": 3,
+      "train_loss_scaled": 0.24638402462005615
+    },
+    {
+      "epoch": 4,
+      "train_loss_scaled": 0.5365062952041626
+    },
+    {
+      "epoch": 5,
+      "train_loss_scaled": 0.5561172366142273
+    },
+    {
+      "epoch": 6,
+      "train_loss_scaled": 0.12607459723949432
+    },
+    {
+      "epoch": 7,
+      "train_loss_scaled": 0.339816689491272
+    },
+    {
+      "epoch": 8,
+      "train_loss_scaled": 0.22675274312496185
+    },
+    {
+      "epoch": 9,
+      "train_loss_scaled": 0.36558884382247925
+    },
+    {
+      "epoch": 10,
+      "train_loss_scaled": 0.2546187937259674
+    },
+    {
+      "epoch": 11,
+      "train_loss_scaled": 0.24840986728668213
+    },
+    {
+      "epoch": 12,
+      "train_loss_scaled": 0.5473031997680664
+    },
+    {
+      "epoch": 13,
+      "train_loss_scaled": 0.6252573132514954
+    },
+    {
+      "epoch": 14,
+      "train_loss_scaled": 0.6299040913581848
+    },
+    {
+      "epoch": 15,
+      "train_loss_scaled": 0.12036239355802536
+    }
+  ],
+  "model_sha256": "b4274284b13dd582a7ac2484df00e7c90e4b16bf7665d004a78ab4bdfc3040b2"
+}

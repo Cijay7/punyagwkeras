@@ -1,0 +1,65 @@
+{
+  "scale": 0.09766182448234864,
+  "metadata": {
+    "framework": "keras",
+    "backend": "tensorflow",
+    "architecture": "GRU",
+    "sensor": "ph",
+    "device_id": "LPA-C2413122025-M0015",
+    "training_devices": [
+      "LPA-C2413122025-M0015"
+    ],
+    "training_scope": "device_parameter",
+    "lag_hours": 24,
+    "horizon_hours": 24,
+    "best_epoch": 8,
+    "trained_until": "2026-05-08 10:00:00",
+    "fit_fingerprint": "8fa7d4e4f11c7016fea10a87652232f06ef3f3e2a9a0a29968b01dd17594c1b5",
+    "time_semantics": "synthetic_not_actual_measurement",
+    "validation_start": "2026-03-21 03:00:00",
+    "test_start": "2026-04-16 05:00:00"
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 6,
+    "hidden_size": 16,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss_scaled": 0.37008363008499146
+    },
+    {
+      "epoch": 2,
+      "train_loss_scaled": 0.4206131398677826
+    },
+    {
+      "epoch": 3,
+      "train_loss_scaled": 0.75782710313797
+    },
+    {
+      "epoch": 4,
+      "train_loss_scaled": 0.3802090585231781
+    },
+    {
+      "epoch": 5,
+      "train_loss_scaled": 0.5884122252464294
+    },
+    {
+      "epoch": 6,
+      "train_loss_scaled": 0.38176408410072327
+    },
+    {
+      "epoch": 7,
+      "train_loss_scaled": 0.5285539031028748
+    },
+    {
+      "epoch": 8,
+      "train_loss_scaled": 0.5464286804199219
+    }
+  ],
+  "model_sha256": "2d5998be055e9b6510eb0a114555c06c90cdaddb21f5cd474023aba13ed8ebeb"
+}

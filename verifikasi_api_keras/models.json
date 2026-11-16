@@ -1,0 +1,68 @@
+{
+  "framework": "keras",
+  "selection": "validation_macro_mae",
+  "horizon_hours": 24,
+  "time_is_synthetic": true,
+  "models": {
+    "SM": {
+      "source_device_id": "LPA-C2413122025-M0015",
+      "framework": "keras",
+      "architecture": "GRU",
+      "trained_until": "2026-05-08T10:00:00+07:00",
+      "training_after_input": false,
+      "validation_macro_mae": 3.9901570692870134,
+      "test_macro_mae": 1.1840637835194163,
+      "test_baseline_macro_mae": 1.376402505446623
+    },
+    "ST": {
+      "source_device_id": "LPA-C2313122025-M0011",
+      "framework": "keras",
+      "architecture": "GRU",
+      "trained_until": "2026-04-24T00:00:00+07:00",
+      "training_after_input": false,
+      "validation_macro_mae": 0.2012680701832647,
+      "test_macro_mae": 0.22857236034554654,
+      "test_baseline_macro_mae": 0.22853951247288765
+    },
+    "ph": {
+      "source_device_id": "LPA-C2613122025-M0014",
+      "framework": "keras",
+      "architecture": "GRU",
+      "trained_until": "2026-05-13T06:00:00+07:00",
+      "training_after_input": false,
+      "validation_macro_mae": 0.032717459592698214,
+      "test_macro_mae": 0.020728525764781097,
+      "test_baseline_macro_mae": 0.020726465910950495
+    },
+    "SEC": {
+      "source_device_id": "LPA-C3113122025-M0019",
+      "framework": "keras",
+      "architecture": "GRU",
+      "trained_until": "2026-05-11T00:00:00+07:00",
+      "training_after_input": false,
+      "validation_macro_mae": 0.3913925301112311,
+      "test_macro_mae": 0.08169006446280434,
+      "test_baseline_macro_mae": 0.07984225857701467
+    },
+    "WL": {
+      "source_device_id": "LPA-C3113122025-M0019",
+      "framework": "keras",
+      "architecture": "GRU",
+      "trained_until": "2026-05-11T00:00:00+07:00",
+      "training_after_input": false,
+      "validation_macro_mae": 0.9717374679545367,
+      "test_macro_mae": 0.6214921837755234,
+      "test_baseline_macro_mae": 0.6086094277668426
+    },
+    "RR": {
+      "source_device_id": "LPA-C2413122025-M0015",
+      "framework": "keras",
+      "architecture": "GRU",
+      "trained_until": "2026-05-08T10:00:00+07:00",
+      "training_after_input": false,
+      "validation_macro_mae": 0.20731284466113872,
+      "test_macro_mae": 0.10165433501798639,
+      "test_baseline_macro_mae": 0.12711698319725476
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "database": "tugasakhir_sintetis_10menit",
+  "raw_rows": 143995,
+  "raw_fingerprint": "4efa0433b22a3947cd60b07a90d526d4381db7f5a4dc81e2381cfb3a6826fae4",
+  "dataset_metadata": {
+    "status": "complete",
+    "timezone": "Asia/Jakarta",
+    "id_strategy": "global_id_from_zero_and_device_sequence_from_zero",
+    "source_table": "sensor_data",
+    "verification": {
+      "rows": 143995,
+      "id_max": 143994,
+      "id_min": 0,
+      "devices": 12,
+      "all_intervals_seconds": 600,
+      "date_time_unixtime_consistent": true,
+      "all_device_sequences_start_at_zero": true,
+      "all_sensor_and_original_fields_preserved": true
+    },
+    "time_semantics": "synthetic_not_actual_measurement",
+    "source_database": "tugasakhir",
+    "target_database": "tugasakhir_sintetis_10menit",
+    "interval_seconds": 600,
+    "start_time_local": "2026-01-01 00:00:00",
+    "source_fingerprint": "06d24b31483e55e004d4a63ab6f56207e949b7b31030ac71477b5e1ef662957a"
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 6,
+    "hidden_size": 16,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "min_train_windows": 168,
+  "keras_version": "3.15.1",
+  "tensorflow_version": "2.21.0",
+  "snapshot_sha256": "93b58645d8832fd7f6af083d85bb9391733b96b02cdfccd4c10489d0e57875e0",
+  "cpu_threads": 1,
+  "interval_model_hours": 1,
+  "time_semantics": "synthetic_not_actual_measurement",
+  "status": "complete"
+}

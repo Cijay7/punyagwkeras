@@ -1,0 +1,490 @@
+{
+  "device_id": "LPA-C2613122025-M0014",
+  "checked_at": "2026-11-15T22:45:47.478699+07:00",
+  "timezone": "Asia/Jakarta",
+  "data_source": "bundled_example",
+  "time_is_synthetic": true,
+  "latest": {
+    "date_time": "2026-05-13T06:00:00+07:00",
+    "age_minutes": 268845.79,
+    "data_lama": true,
+    "time_is_synthetic": true,
+    "suspect_zero_packet": false,
+    "sensors": {
+      "SM": 100.0,
+      "ST": 28.0,
+      "ph": 8.9,
+      "SEC": 13.0,
+      "WL": 93.0,
+      "RR": 0.0
+    },
+    "classification": {
+      "status": "Data lama",
+      "alasan": "Input historis; bukan peringatan kondisi saat ini"
+    }
+  },
+  "prediction": {
+    "availability": "demo_ready",
+    "message": "24 titik demo dari champion Keras; bukan kondisi saat ini atau backtest.",
+    "mode": "demo",
+    "is_demo": true,
+    "is_backtest": false,
+    "is_operational": false,
+    "time_is_synthetic": true,
+    "model_trained_on_synthetic": true,
+    "horizon_hours": 24,
+    "points": [
+      {
+        "date_time": "2026-05-13T07:00:00+07:00",
+        "horizon_jam": 1,
+        "sensors": {
+          "SM": 100.0,
+          "ST": 28.000024692792067,
+          "ph": 8.900000110991451,
+          "SEC": 13.00018226330576,
+          "WL": 92.9994492525002,
+          "RR": 0.0
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T08:00:00+07:00",
+        "horizon_jam": 2,
+        "sensors": {
+          "SM": 99.99629550497048,
+          "ST": 27.999925965006696,
+          "ph": 8.900005768064966,
+          "SEC": 13.00003647479025,
+          "WL": 93.00392920896411,
+          "RR": 0.067811518907547
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T09:00:00+07:00",
+        "horizon_jam": 3,
+        "sensors": {
+          "SM": 99.99415861396119,
+          "ST": 27.999977525598297,
+          "ph": 8.900000114695631,
+          "SEC": 13.000110674816824,
+          "WL": 93.00544072268531,
+          "RR": 0.08060763031244278
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T10:00:00+07:00",
+        "horizon_jam": 4,
+        "sensors": {
+          "SM": 99.99137887172401,
+          "ST": 28.000011373696907,
+          "ph": 8.90000344440582,
+          "SEC": 13.000198268025997,
+          "WL": 93.00765736121684,
+          "RR": 0.08797740936279297
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T11:00:00+07:00",
+        "horizon_jam": 5,
+        "sensors": {
+          "SM": 99.98910041805357,
+          "ST": 28.000032283678593,
+          "ph": 8.899998228227242,
+          "SEC": 12.999903788710071,
+          "WL": 93.00847580377012,
+          "RR": 0.10879211127758026
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T12:00:00+07:00",
+        "horizon_jam": 6,
+        "sensors": {
+          "SM": 99.98503386508673,
+          "ST": 28.000073211886047,
+          "ph": 8.899994319573489,
+          "SEC": 13.000169086852111,
+          "WL": 93.00544497417286,
+          "RR": 0.09299467504024506
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T13:00:00+07:00",
+        "horizon_jam": 7,
+        "sensors": {
+          "SM": 99.98348758369684,
+          "ST": 27.999969584101564,
+          "ph": 8.900000728389466,
+          "SEC": 13.000033562831959,
+          "WL": 93.00412953970954,
+          "RR": 0.08074017614126205
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T14:00:00+07:00",
+        "horizon_jam": 8,
+        "sensors": {
+          "SM": 99.97955022752285,
+          "ST": 28.00003680712689,
+          "ph": 8.900002166729019,
+          "SEC": 13.000510355690494,
+          "WL": 93.00234815082513,
+          "RR": 0.0913192480802536
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T15:00:00+07:00",
+        "horizon_jam": 9,
+        "sensors": {
+          "SM": 99.97885633446276,
+          "ST": 28.000057574517996,
+          "ph": 8.89999816880279,
+          "SEC": 13.000066325803346,
+          "WL": 92.9981696610339,
+          "RR": 0.07839448004961014
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T16:00:00+07:00",
+        "horizon_jam": 10,
+        "sensors": {
+          "SM": 99.97606107592583,
+          "ST": 28.000031127769034,
+          "ph": 8.899998717073936,
+          "SEC": 12.999828634041478,
+          "WL": 92.99641236127354,
+          "RR": 0.07358235120773315
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T17:00:00+07:00",
+        "horizon_jam": 11,
+        "sensors": {
+          "SM": 99.97542772814631,
+          "ST": 28.000011798623746,
+          "ph": 8.90000130953174,
+          "SEC": 12.999963599177136,
+          "WL": 92.99327785335481,
+          "RR": 0.07912247627973557
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T18:00:00+07:00",
+        "horizon_jam": 12,
+        "sensors": {
+          "SM": 99.96981249563396,
+          "ST": 28.000013540830878,
+          "ph": 8.90000546970523,
+          "SEC": 12.999971391252984,
+          "WL": 92.99151854403317,
+          "RR": 0.08561956882476807
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T19:00:00+07:00",
+        "horizon_jam": 13,
+        "sensors": {
+          "SM": 99.9675807915628,
+          "ST": 27.999981796856446,
+          "ph": 8.899999822365638,
+          "SEC": 13.000052295810747,
+          "WL": 92.99121902696788,
+          "RR": 0.07379819452762604
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T20:00:00+07:00",
+        "horizon_jam": 14,
+        "sensors": {
+          "SM": 99.96436660736799,
+          "ST": 28.0000209850823,
+          "ph": 8.900000715757836,
+          "SEC": 12.999960696382914,
+          "WL": 92.9878996387124,
+          "RR": 0.07667610794305801
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T21:00:00+07:00",
+        "horizon_jam": 15,
+        "sensors": {
+          "SM": 99.96313754841685,
+          "ST": 28.00003321938493,
+          "ph": 8.900002077388672,
+          "SEC": 13.00019147490093,
+          "WL": 92.98484571836889,
+          "RR": 0.07233401387929916
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T22:00:00+07:00",
+        "horizon_jam": 16,
+        "sensors": {
+          "SM": 99.96025876328349,
+          "ST": 28.00003659304275,
+          "ph": 8.900002356327741,
+          "SEC": 13.000277600833215,
+          "WL": 92.98614753875881,
+          "RR": 0.0633607804775238
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-13T23:00:00+07:00",
+        "horizon_jam": 17,
+        "sensors": {
+          "SM": 99.96472300216556,
+          "ST": 28.000010415678844,
+          "ph": 8.900002445948212,
+          "SEC": 13.000111179855594,
+          "WL": 92.98548479098827,
+          "RR": 0.06434592604637146
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-14T00:00:00+07:00",
+        "horizon_jam": 18,
+        "sensors": {
+          "SM": 99.96046154201031,
+          "ST": 27.99998092226633,
+          "ph": 8.900005836588571,
+          "SEC": 13.000208236568142,
+          "WL": 92.9832002222538,
+          "RR": 0.07335880398750305
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-14T01:00:00+07:00",
+        "horizon_jam": 19,
+        "sensors": {
+          "SM": 99.95904982089996,
+          "ST": 27.999968691507092,
+          "ph": 8.900002292625823,
+          "SEC": 13.000437510519987,
+          "WL": 92.98312505334616,
+          "RR": 0.07022610306739807
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-14T02:00:00+07:00",
+        "horizon_jam": 20,
+        "sensors": {
+          "SM": 99.95846006274223,
+          "ST": 28.000013189372112,
+          "ph": 8.899997054956566,
+          "SEC": 13.000156850976055,
+          "WL": 92.98251603543758,
+          "RR": 0.07278336584568024
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-14T03:00:00+07:00",
+        "horizon_jam": 21,
+        "sensors": {
+          "SM": 99.9580595344305,
+          "ST": 28.00000916960562,
+          "ph": 8.900001258930866,
+          "SEC": 13.00014745007502,
+          "WL": 92.98422921448946,
+          "RR": 0.07085815072059631
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-14T04:00:00+07:00",
+        "horizon_jam": 22,
+        "sensors": {
+          "SM": 99.95925100892782,
+          "ST": 27.999917114728305,
+          "ph": 8.900001007383503,
+          "SEC": 13.000253517879173,
+          "WL": 92.98020437732339,
+          "RR": 0.07358097285032272
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-14T05:00:00+07:00",
+        "horizon_jam": 23,
+        "sensors": {
+          "SM": 99.95425794273615,
+          "ST": 27.999955302388116,
+          "ph": 8.900008041835827,
+          "SEC": 13.000334711017786,
+          "WL": 92.97416833788157,
+          "RR": 0.06610569357872009
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      },
+      {
+        "date_time": "2026-05-14T06:00:00+07:00",
+        "horizon_jam": 24,
+        "sensors": {
+          "SM": 99.95122015103698,
+          "ST": 27.999893813073868,
+          "ph": 8.89999984300547,
+          "SEC": 13.000344482483342,
+          "WL": 92.97236882522702,
+          "RR": 0.07121779769659042
+        },
+        "classification": {
+          "status": "Data lama",
+          "alasan": "Input historis; bukan peringatan kondisi saat ini"
+        }
+      }
+    ],
+    "evaluation_warning": "Model waktu sintetis; bukan bukti akurasi lapangan atau kebakaran.",
+    "forecast_origin": "2026-05-13T06:00:00+07:00",
+    "input_data_lama": true,
+    "input_age_minutes": 268845.79,
+    "model_per_parameter": {
+      "SM": {
+        "source_device_id": "LPA-C2413122025-M0015",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-08T10:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 3.9901570692870134,
+        "test_macro_mae": 1.1840637835194163,
+        "test_baseline_macro_mae": 1.376402505446623
+      },
+      "ST": {
+        "source_device_id": "LPA-C2313122025-M0011",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-04-24T00:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 0.2012680701832647,
+        "test_macro_mae": 0.22857236034554654,
+        "test_baseline_macro_mae": 0.22853951247288765
+      },
+      "ph": {
+        "source_device_id": "LPA-C2613122025-M0014",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-13T06:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 0.032717459592698214,
+        "test_macro_mae": 0.020728525764781097,
+        "test_baseline_macro_mae": 0.020726465910950495
+      },
+      "SEC": {
+        "source_device_id": "LPA-C3113122025-M0019",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-11T00:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 0.3913925301112311,
+        "test_macro_mae": 0.08169006446280434,
+        "test_baseline_macro_mae": 0.07984225857701467
+      },
+      "WL": {
+        "source_device_id": "LPA-C3113122025-M0019",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-11T00:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 0.9717374679545367,
+        "test_macro_mae": 0.6214921837755234,
+        "test_baseline_macro_mae": 0.6086094277668426
+      },
+      "RR": {
+        "source_device_id": "LPA-C2413122025-M0015",
+        "framework": "keras",
+        "architecture": "GRU",
+        "trained_until": "2026-05-08T10:00:00+07:00",
+        "training_after_input": false,
+        "validation_macro_mae": 0.20731284466113872,
+        "test_macro_mae": 0.10165433501798639,
+        "test_baseline_macro_mae": 0.12711698319725476
+      }
+    },
+    "model_training_after_input": false
+  }
+}

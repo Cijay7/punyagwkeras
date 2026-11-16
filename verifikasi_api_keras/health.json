@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "database": "tugasakhir_sintetis_10menit",
+  "framework": "keras",
+  "default_mode": "demo",
+  "time_is_synthetic": true
+}

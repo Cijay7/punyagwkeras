@@ -1,0 +1,70 @@
+{
+  "devices": [
+    {
+      "device_id": "LPA-C2213122025-M0010",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-C2313122025-M0011",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-C2413122025-M0012",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-C2413122025-M0015",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-C2513122025-M0013",
+      "availability": "invalid_latest_reading",
+      "points": 0
+    },
+    {
+      "device_id": "LPA-C2613122025-M0014",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-C2813122025-M0016",
+      "availability": "invalid_latest_reading",
+      "points": 0
+    },
+    {
+      "device_id": "LPA-C3113122025-M0019",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-C3413122025-P0022",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-C3613122025-P0024",
+      "availability": "demo_ready",
+      "points": 24
+    },
+    {
+      "device_id": "LPA-M1906112025-P0007",
+      "availability": "invalid_latest_reading",
+      "points": 0
+    },
+    {
+      "device_id": "LPA-M2106112025-P0009",
+      "availability": "invalid_latest_reading",
+      "points": 0
+    }
+  ],
+  "models": 6,
+  "live_stale_guard": true,
+  "offline_forecast_matches": true,
+  "old_files_changed": [],
+  "api_tests_passed": 26,
+  "demo_devices": 8
+}

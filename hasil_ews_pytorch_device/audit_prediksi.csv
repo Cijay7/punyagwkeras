@@ -1,0 +1,13 @@
+device_id,result
+LPA-C2213122025-M0010,Input GRU tidak lengkap atau tidak finite.
+LPA-C2313122025-M0011,Model dilatih melewati waktu input perangkat.
+LPA-C2413122025-M0012,ok
+LPA-C2413122025-M0015,ok
+LPA-C2513122025-M0013,Input GRU tidak lengkap atau tidak finite.
+LPA-C2613122025-M0014,ok
+LPA-C2813122025-M0016,Input GRU tidak lengkap atau tidak finite.
+LPA-C3113122025-M0019,ok
+LPA-C3413122025-P0022,Model dilatih melewati waktu input perangkat.
+LPA-C3613122025-P0024,Model dilatih melewati waktu input perangkat.
+LPA-M1906112025-P0007,Model dilatih melewati waktu input perangkat.
+LPA-M2106112025-P0009,Model dilatih melewati waktu input perangkat.

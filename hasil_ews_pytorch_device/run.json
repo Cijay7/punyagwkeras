@@ -1,0 +1,17 @@
+{
+  "snapshot": "D:\\TAnyawit\\uji_model\\hourly_snapshot.pkl",
+  "sha256": "fcbd2dff24c057b89d1a2b9dbf1e4a39ed91460042aa033688c805b5a1a5027b",
+  "config": {
+    "hidden_size": 16,
+    "epochs": 60,
+    "patience": 8,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "min_train_windows": 168,
+  "torch_version": "2.15.0+cpu",
+  "selection": "common validation macro MAE",
+  "selection_uses_test": false,
+  "status": "complete"
+}

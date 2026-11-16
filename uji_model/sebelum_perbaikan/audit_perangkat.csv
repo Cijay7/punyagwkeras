@@ -1,0 +1,13 @@
+device_id,rows,duplicate_times,invalid_times,suspect_zero_packets,hourly_rows,complete_hours,latest_measurement,constant_sensors,result
+LPA-C2213122025-M0010,3616,15,0,0,2808,310,2026-08-25 05:05:57,SM,24 jam input terakhir SM tidak lengkap.
+LPA-C2313122025-M0011,16275,1,0,0,993,902,2026-05-24 19:42:49,SM,24 jam input terakhir SM tidak lengkap.
+LPA-C2413122025-M0012,10199,0,0,0,1310,544,2026-05-25 06:34:23,SM,ok
+LPA-C2413122025-M0015,18348,1,0,0,1004,958,2026-05-25 06:32:55,,ok
+LPA-C2513122025-M0013,18079,177,0,18079,1004,0,2026-05-25 06:33:19,"SM, ST, ph, SEC, WL, RR",24 jam input terakhir SM tidak lengkap.
+LPA-C2613122025-M0014,19046,2,0,0,1004,967,2026-05-25 06:34:27,"SM, SEC",ok
+LPA-C2813122025-M0016,15970,171,0,15970,1017,0,2026-05-25 06:33:57,"SM, ST, ph, SEC, WL, RR",24 jam input terakhir SM tidak lengkap.
+LPA-C3113122025-M0019,18689,32,0,422,1004,961,2026-05-25 06:32:40,SM,ok
+LPA-C3413122025-P0022,3294,3,0,0,225,171,2026-04-22 12:26:10,SM,24 jam input terakhir SM tidak lengkap.
+LPA-C3613122025-P0024,4924,15,0,0,931,331,2026-05-21 16:42:00,"SM, RR",24 jam input terakhir SM tidak lengkap.
+LPA-M1906112025-P0007,8733,182,0,7178,1566,181,2026-05-16 00:56:17,,24 jam input terakhir SM tidak lengkap.
+LPA-M2106112025-P0009,43,0,0,43,2,0,2026-04-28 04:43:24,"SM, ST, ph, SEC, WL, RR",24 jam input terakhir SM tidak lengkap.

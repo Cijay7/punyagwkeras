@@ -1,0 +1,40 @@
+{
+  "SM": {
+    "evaluation_checkpoint_reproduces_test": true,
+    "evaluation_trained_until": "2026-05-14 04:00:00",
+    "test_start": "2026-05-15 20:00:00",
+    "mae": 0.7175846969226539
+  },
+  "ST": {
+    "evaluation_checkpoint_reproduces_test": true,
+    "evaluation_trained_until": "2026-05-14 04:00:00",
+    "test_start": "2026-05-15 20:00:00",
+    "mae": 0.20542927255796742
+  },
+  "ph": {
+    "evaluation_checkpoint_reproduces_test": true,
+    "evaluation_trained_until": "2026-05-14 04:00:00",
+    "test_start": "2026-05-15 20:00:00",
+    "mae": 0.05059600625209457
+  },
+  "SEC": {
+    "evaluation_checkpoint_reproduces_test": true,
+    "evaluation_trained_until": "2026-05-14 04:00:00",
+    "test_start": "2026-05-15 20:00:00",
+    "mae": 0.07019426748117152
+  },
+  "WL": {
+    "evaluation_checkpoint_reproduces_test": true,
+    "evaluation_trained_until": "2026-05-14 04:00:00",
+    "test_start": "2026-05-15 20:00:00",
+    "mae": 2.055444837886276
+  },
+  "RR": {
+    "evaluation_checkpoint_reproduces_test": true,
+    "evaluation_trained_until": "2026-05-14 04:00:00",
+    "test_start": "2026-05-15 20:00:00",
+    "mae": 0.20403037658041498
+  },
+  "final_checkpoint_forecast_points": 24,
+  "final_checkpoint_stale_data_guard": true
+}

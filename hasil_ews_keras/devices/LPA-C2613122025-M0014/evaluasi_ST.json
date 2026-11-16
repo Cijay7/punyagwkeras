@@ -1,0 +1,93 @@
+{
+  "scale": 0.11268646399868676,
+  "metadata": {
+    "framework": "keras",
+    "backend": "tensorflow",
+    "architecture": "GRU",
+    "sensor": "ST",
+    "device_id": "LPA-C2613122025-M0014",
+    "training_devices": [
+      "LPA-C2613122025-M0014"
+    ],
+    "training_scope": "device_parameter",
+    "lag_hours": 24,
+    "horizon_hours": 24,
+    "best_epoch": 15,
+    "trained_until": "2026-04-16 04:00:00",
+    "fit_fingerprint": "ef8f9ae3f98826def62a69b5d0862030f75bc76d4bfa999a3ee89d03703ac8b8",
+    "time_semantics": "synthetic_not_actual_measurement",
+    "validation_start": "2026-03-21 03:00:00",
+    "test_start": "2026-04-16 05:00:00"
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 6,
+    "hidden_size": 16,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss_scaled": 0.32046833634376526
+    },
+    {
+      "epoch": 2,
+      "train_loss_scaled": 0.155593141913414
+    },
+    {
+      "epoch": 3,
+      "train_loss_scaled": 0.25876471400260925
+    },
+    {
+      "epoch": 4,
+      "train_loss_scaled": 0.15287142992019653
+    },
+    {
+      "epoch": 5,
+      "train_loss_scaled": 0.08193868398666382
+    },
+    {
+      "epoch": 6,
+      "train_loss_scaled": 0.03899769112467766
+    },
+    {
+      "epoch": 7,
+      "train_loss_scaled": 0.14496994018554688
+    },
+    {
+      "epoch": 8,
+      "train_loss_scaled": 0.23345185816287994
+    },
+    {
+      "epoch": 9,
+      "train_loss_scaled": 0.2043156623840332
+    },
+    {
+      "epoch": 10,
+      "train_loss_scaled": 0.17707431316375732
+    },
+    {
+      "epoch": 11,
+      "train_loss_scaled": 0.21961459517478943
+    },
+    {
+      "epoch": 12,
+      "train_loss_scaled": 0.09223389625549316
+    },
+    {
+      "epoch": 13,
+      "train_loss_scaled": 0.21227194368839264
+    },
+    {
+      "epoch": 14,
+      "train_loss_scaled": 0.21184782683849335
+    },
+    {
+      "epoch": 15,
+      "train_loss_scaled": 0.13503339886665344
+    }
+  ],
+  "model_sha256": "d88c3f3444d77aae47f41782f8ca5efe61b680afa33acf5ad0ce65642e10be90"
+}

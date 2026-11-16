@@ -1,0 +1,45 @@
+{
+  "scale": 1.1076408538407725,
+  "metadata": {
+    "framework": "keras",
+    "backend": "tensorflow",
+    "architecture": "GRU",
+    "sensor": "WL",
+    "device_id": "LPA-C2313122025-M0011",
+    "training_devices": [
+      "LPA-C2313122025-M0011"
+    ],
+    "training_scope": "device_parameter",
+    "lag_hours": 24,
+    "horizon_hours": 24,
+    "best_epoch": 3,
+    "trained_until": "2026-04-24 00:00:00",
+    "fit_fingerprint": "4fba641752ca38285e9ba07169bed8aa1072a4d23cd3568775e694cf82d0cb0e",
+    "time_semantics": "synthetic_not_actual_measurement",
+    "validation_start": "2026-03-21 03:00:00",
+    "test_start": "2026-04-16 05:00:00"
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 6,
+    "hidden_size": 16,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss_scaled": 0.3951508402824402
+    },
+    {
+      "epoch": 2,
+      "train_loss_scaled": 0.22517193853855133
+    },
+    {
+      "epoch": 3,
+      "train_loss_scaled": 0.22870737314224243
+    }
+  ],
+  "model_sha256": "ea9836b1882be71630f26416eae4802b4eedf0911ad1a22f149fba41bd36252d"
+}

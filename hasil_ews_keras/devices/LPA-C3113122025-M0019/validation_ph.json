@@ -1,0 +1,148 @@
+{
+  "scale": 0.03898659819230012,
+  "metadata": {
+    "framework": "keras",
+    "backend": "tensorflow",
+    "architecture": "GRU",
+    "sensor": "ph",
+    "device_id": "LPA-C3113122025-M0019",
+    "training_devices": [
+      "LPA-C3113122025-M0019"
+    ],
+    "training_scope": "device_parameter",
+    "lag_hours": 24,
+    "horizon_hours": 24,
+    "best_epoch": 17,
+    "trained_until": "2026-03-21 02:00:00",
+    "fit_fingerprint": "cd778a03de97741c35e9d1ce9578e64c2c946334686729ef1072fbbc14a83c9e",
+    "time_semantics": "synthetic_not_actual_measurement",
+    "validation_start": "2026-03-21 03:00:00",
+    "test_start": "2026-04-16 05:00:00"
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 6,
+    "hidden_size": 16,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss_scaled": 0.485318124294281,
+      "validation_mae": 0.022510427179011163
+    },
+    {
+      "epoch": 2,
+      "train_loss_scaled": 0.2456766813993454,
+      "validation_mae": 0.022504459821701323
+    },
+    {
+      "epoch": 3,
+      "train_loss_scaled": 0.4181438684463501,
+      "validation_mae": 0.022503056525638113
+    },
+    {
+      "epoch": 4,
+      "train_loss_scaled": 0.4807479977607727,
+      "validation_mae": 0.02250196101079094
+    },
+    {
+      "epoch": 5,
+      "train_loss_scaled": 0.39246201515197754,
+      "validation_mae": 0.022502441365067283
+    },
+    {
+      "epoch": 6,
+      "train_loss_scaled": 0.42369696497917175,
+      "validation_mae": 0.02250124594431493
+    },
+    {
+      "epoch": 7,
+      "train_loss_scaled": 0.38780856132507324,
+      "validation_mae": 0.022500797659958195
+    },
+    {
+      "epoch": 8,
+      "train_loss_scaled": 0.4112403690814972,
+      "validation_mae": 0.022501612385976057
+    },
+    {
+      "epoch": 9,
+      "train_loss_scaled": 0.35964399576187134,
+      "validation_mae": 0.022500871235419172
+    },
+    {
+      "epoch": 10,
+      "train_loss_scaled": 0.4280034601688385,
+      "validation_mae": 0.022501166880129812
+    },
+    {
+      "epoch": 11,
+      "train_loss_scaled": 0.46213299036026,
+      "validation_mae": 0.02250073167891853
+    },
+    {
+      "epoch": 12,
+      "train_loss_scaled": 0.3628488779067993,
+      "validation_mae": 0.022500728343055196
+    },
+    {
+      "epoch": 13,
+      "train_loss_scaled": 0.35962942242622375,
+      "validation_mae": 0.02250071418400598
+    },
+    {
+      "epoch": 14,
+      "train_loss_scaled": 0.30438703298568726,
+      "validation_mae": 0.022500639958862242
+    },
+    {
+      "epoch": 15,
+      "train_loss_scaled": 0.39724722504615784,
+      "validation_mae": 0.022500269839492885
+    },
+    {
+      "epoch": 16,
+      "train_loss_scaled": 0.5215645432472229,
+      "validation_mae": 0.022500232736304072
+    },
+    {
+      "epoch": 17,
+      "train_loss_scaled": 0.36859336495399475,
+      "validation_mae": 0.022499798479160407
+    },
+    {
+      "epoch": 18,
+      "train_loss_scaled": 0.4044375419616699,
+      "validation_mae": 0.022500130281152386
+    },
+    {
+      "epoch": 19,
+      "train_loss_scaled": 0.31746912002563477,
+      "validation_mae": 0.022499902144156342
+    },
+    {
+      "epoch": 20,
+      "train_loss_scaled": 0.2944401204586029,
+      "validation_mae": 0.022500405319134328
+    },
+    {
+      "epoch": 21,
+      "train_loss_scaled": 0.297757625579834,
+      "validation_mae": 0.02250035459866863
+    },
+    {
+      "epoch": 22,
+      "train_loss_scaled": 0.4277866780757904,
+      "validation_mae": 0.02250020704174704
+    },
+    {
+      "epoch": 23,
+      "train_loss_scaled": 0.37152695655822754,
+      "validation_mae": 0.02250109490103349
+    }
+  ],
+  "model_sha256": "123c889b040bdecc53fe838da46b7cd504a62c9ad43afc63d63e4818ebd3f9d6"
+}

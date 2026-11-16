@@ -1,0 +1,11 @@
+{
+  "total_rows": 143995,
+  "devices": 12,
+  "min_id": 0,
+  "max_id": 143994,
+  "wrong_date_formula": 0,
+  "wrong_epoch": 0,
+  "missing_synthetic_flag": 0,
+  "device_sequences_invalid": 0,
+  "changed_original_rows": 0
+}

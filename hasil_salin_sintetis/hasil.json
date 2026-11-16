@@ -1,0 +1,23 @@
+{
+  "source_database": "tugasakhir",
+  "target_database": "tugasakhir_sintetis_10menit",
+  "source_table": "sensor_data",
+  "start_time_local": "2026-01-01 00:00:00",
+  "timezone": "Asia/Jakarta",
+  "interval_seconds": 600,
+  "source_fingerprint": "06d24b31483e55e004d4a63ab6f56207e949b7b31030ac71477b5e1ef662957a",
+  "time_semantics": "synthetic_not_actual_measurement",
+  "id_strategy": "global_id_from_zero_and_device_sequence_from_zero",
+  "status": "complete",
+  "verification": {
+    "rows": 143995,
+    "devices": 12,
+    "id_min": 0,
+    "id_max": 143994,
+    "all_sensor_and_original_fields_preserved": true,
+    "all_device_sequences_start_at_zero": true,
+    "all_intervals_seconds": 600,
+    "date_time_unixtime_consistent": true
+  },
+  "source_unchanged_at_verification": true
+}
